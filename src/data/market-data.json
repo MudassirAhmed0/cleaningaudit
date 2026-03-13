@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-03-13T00:00:00.000Z",
+  "service": "cleaning",
+  "indexName": "Cleaning Website Index",
+  "national": {
+    "totalLeads": 0,
+    "deepAudited": 0,
+    "avgDeepScore": 0,
+    "medianDeepScore": 0,
+    "bestScore": 0,
+    "worstScore": 0,
+    "avgSpeed": 0,
+    "bookingRate": 0,
+    "sslRate": 0,
+    "reviewsDisplayedRate": 0,
+    "contactFormRate": 0,
+    "scoreDistribution": []
+  },
+  "states": [],
+  "cities": [],
+  "problems": []
+}
