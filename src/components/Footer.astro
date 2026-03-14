@@ -8,19 +8,16 @@ const topCities = marketData.cities
   .slice(0, 6);
 ---
 
-<footer class="border-t border-rule px-6 md:px-12 lg:px-16 pt-16 pb-8" data-theme="dark">
+<footer class="border-t border-rule px-6 md:px-12 lg:px-16 pt-16 pb-8">
   <!-- Top: brand + nav columns -->
   <div class="flex flex-col gap-12 lg:flex-row lg:justify-between lg:gap-8">
     <!-- Brand + tagline -->
     <div class="max-w-xs">
       <a href="/" class="flex items-center gap-2.5 group mb-4">
         <svg width="28" height="28" viewBox="0 0 32 32" class="shrink-0" aria-hidden="true">
-          <rect width="32" height="32" rx="8" fill="#0b1220"/>
-          <rect width="32" height="32" rx="8" fill="none" stroke="#253449" stroke-width="1"/>
-          <path d="M8 22a8 8 0 0 1 16 0" fill="none" stroke="#253449" stroke-width="2" stroke-linecap="round"/>
-          <path d="M8 22a8 8 0 0 1 12.5-3.5" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/>
-          <line x1="16" y1="22" x2="20" y2="16" stroke="#f1f5f9" stroke-width="2" stroke-linecap="round"/>
-          <circle cx="16" cy="22" r="1.5" fill="#0ea5e9"/>
+          <rect width="32" height="32" rx="8" fill="#18181b"/>
+          <path d="M14 7 L15 14 L22 15 L15 16 L14 23 L13 16 L6 15 L13 14 Z" fill="white"/>
+          <path d="M23.5 7 L24 9.5 L26.5 10 L24 10.5 L23.5 13 L23 10.5 L20.5 10 L23 9.5 Z" fill="#059669"/>
         </svg>
         <span class="text-sm font-semibold tracking-tight">Cleaning Audit</span>
       </a>
@@ -80,7 +77,7 @@ const topCities = marketData.cities
       <p class="text-sm font-semibold mb-2">See what's wrong with your site.</p>
       <a
         href="/#audit"
-        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent text-[#0b1220] text-xs font-semibold uppercase tracking-wide hover:bg-accent-hover transition-colors duration-300"
+        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent text-white text-xs font-semibold uppercase tracking-wide hover:bg-accent-hover transition-colors duration-300"
       >
         Free Audit
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">

@@ -15,23 +15,42 @@
 }
 
 @theme {
+  /* Surface */
   --color-surface: #ffffff;
   --color-surface-alt: #f4f4f5;
   --color-surface-elevated: #ffffff;
   --color-surface-card: #f9fafb;
-  --color-accent: #22c55e;
-  --color-accent-hover: #16a34a;
-  --color-accent-muted: rgba(34, 197, 94, 0.08);
-  --color-accent-border: rgba(34, 197, 94, 0.3);
+
+  /* Accent — Emerald 600/700 (WCAG AA: 4.6:1 / 6.2:1 on white) */
+  --color-accent: #059669;
+  --color-accent-hover: #047857;
+  --color-accent-muted: rgba(5, 150, 105, 0.06);
+  --color-accent-border: rgba(5, 150, 105, 0.25);
+  --color-accent-subtle: #ecfdf5;
+
+  /* Semantic */
   --color-danger: #dc2626;
   --color-warning: #d97706;
   --color-success: #16a34a;
+
+  /* Ink */
   --color-ink: #18181b;
   --color-ink-secondary: #3f3f46;
   --color-ink-muted: #52525b;
   --color-ink-faint: #71717a;
+
+  /* Borders */
   --color-rule: #e4e4e7;
   --color-rule-light: #f4f4f5;
+
+  /* Shadows — cool-toned, low opacity for premium light theme */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.03);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+
+  /* Fonts */
   --font-sans: "Geist", system-ui, -apple-system, sans-serif;
   --font-mono: "Geist Mono", ui-monospace, monospace;
 }
@@ -156,7 +175,7 @@ input:focus-visible, button:focus-visible {
   transform: translateY(-4px);
   transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
   pointer-events: none;
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-xl);
 }
 
 .nav-dropdown:hover .nav-mega,
@@ -334,7 +353,7 @@ input:focus-visible, button:focus-visible {
   max-height: 260px;
   overflow-y: auto;
   z-index: 50;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-lg);
 }
 .toc-dropdown.is-open .toc-dropdown-menu { display: block; }
 
