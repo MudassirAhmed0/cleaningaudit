@@ -1,5 +1,9 @@
 /**
- * Pulls curated cleaning audit reports from Postgres and writes src/data/reports.json.
+ * Pulls cleaning audit reports from Postgres and writes src/data/reports.json.
+ *
+ * Strategy: pull ALL deep-audited leads with niche_audit data, then pick
+ * up to PER_CITY reports per city for even coverage. Ensures every city,
+ * state, and problem type has report pages backing it.
  *
  * Usage:  npm run sync-reports
  * Env:    DATABASE_URL (required)
@@ -14,20 +18,8 @@ import { dirname, join } from "path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dirname, "..", "src", "data", "reports.json");
 
-// ── Curated lead IDs ────────────────────────────────────────────────
-// Hand-picked for score variety, city diversity, and interesting issue profiles.
-// To add a report: add its lead ID here, run `npm run sync-reports`.
-const CURATED_IDS = [
-  501,  // Detail Cleaning Services — Houston, TX (9 gaps)
-  578,  // Extreme Maids — Tampa, FL (6 gaps)
-  557,  // Tidy Casa — Phoenix, AZ (7 gaps)
-  4639, // Go 2 Girls — Raleigh, NC (25 gaps)
-  4762, // DJO Home Cleaning-Atlanta — Atlanta, GA (22 gaps)
-  4996, // You've Got Maids of Henderson — Henderson, NV (27 gaps)
-  5300, // Extreme Clean Solutions — Oklahoma City, OK (28 gaps)
-  2475, // Nekoblue Services — Miami, FL (18 gaps)
-  5056, // The Cleaning Crew Charleston — Charleston, SC (23 gaps)
-];
+// How many reports per city (picks best spread of scores within each city)
+const PER_CITY = 9;
 
 const DB_URL = process.env.DATABASE_URL;
 if (!DB_URL) {
@@ -257,6 +249,41 @@ function fixGaps(gaps, state) {
   });
 }
 
+// ── Pick best spread per city ────────────────────────────────────────
+// For each city, pick up to PER_CITY reports with maximum score diversity.
+// Strategy: sort by websiteQualityScore, pick evenly spaced entries.
+function pickPerCity(rows, perCity) {
+  // Group by city+state
+  const byCityState = new Map();
+  for (const row of rows) {
+    const key = `${row.city}|${row.state}`;
+    if (!byCityState.has(key)) byCityState.set(key, []);
+    byCityState.get(key).push(row);
+  }
+
+  const picked = [];
+  for (const [, cityRows] of byCityState) {
+    // Sort by quality score for even spread
+    cityRows.sort((a, b) => {
+      const scoreA = calculateWebsiteQualityScore(a.niche_audit);
+      const scoreB = calculateWebsiteQualityScore(b.niche_audit);
+      return scoreB - scoreA;
+    });
+
+    if (cityRows.length <= perCity) {
+      picked.push(...cityRows);
+    } else {
+      // Pick evenly spaced entries for score diversity
+      const step = (cityRows.length - 1) / (perCity - 1);
+      for (let i = 0; i < perCity; i++) {
+        picked.push(cityRows[Math.round(i * step)]);
+      }
+    }
+  }
+
+  return picked;
+}
+
 // ── Main ────────────────────────────────────────────────────────────
 async function main() {
   const client = new Client({
@@ -265,28 +292,49 @@ async function main() {
   });
 
   await client.connect();
-  console.log(`Connected. Pulling ${CURATED_IDS.length} reports...`);
+  console.log(`Connected. Pulling all deep-audited cleaning leads...`);
 
+  // Pull ALL leads that have niche_audit data (deep-audited)
   const res = await client.query(
     `SELECT id, name, website, city, state, total_score, rating, review_count, niche_audit
-     FROM leads WHERE id = ANY($1)`,
-    [CURATED_IDS]
+     FROM leads
+     WHERE niche_audit IS NOT NULL
+       AND niche_audit::text != 'null'
+       AND niche_audit->'gapSummary' IS NOT NULL
+       AND category = 'house_cleaning'
+     ORDER BY city, total_score DESC`
   );
 
-  // Sort by the order in CURATED_IDS
-  const idOrder = new Map(CURATED_IDS.map((id, i) => [id, i]));
-  const rows = res.rows.sort((a, b) => (idOrder.get(a.id) ?? 99) - (idOrder.get(b.id) ?? 99));
+  console.log(`Found ${res.rows.length} deep-audited leads across ${new Set(res.rows.map(r => r.city)).size} cities`);
 
-  const reports = rows.map((row) => {
+  // Pick up to PER_CITY per city for even coverage
+  const selectedRows = pickPerCity(res.rows, PER_CITY);
+  console.log(`Selected ${selectedRows.length} reports (up to ${PER_CITY} per city)`);
+
+  // Dedupe by slug (some businesses may share names)
+  const seenSlugs = new Set();
+  const reports = [];
+
+  for (const row of selectedRows) {
     const audit = row.niche_audit;
+    if (!audit?.gapSummary?.length) continue;
+    if (!row.city || !row.state) continue;
+
     const cleanedUrl = cleanUrl(row.website);
     const domain = extractDomain(row.website);
-    const slug = slugify(row.name);
+    let slug = slugify(row.name);
+
+    // Dedupe slugs
+    if (seenSlugs.has(slug)) {
+      slug = `${slug}-${row.city.toLowerCase().replace(/\s+/g, "-")}`;
+    }
+    if (seenSlugs.has(slug)) continue;
+    seenSlugs.add(slug);
 
     const qualityScore = calculateWebsiteQualityScore(audit);
     const diagnostic = buildDiagnosticFields(audit, qualityScore);
 
-    return {
+    reports.push({
       slug,
       name: row.name,
       domain,
@@ -304,16 +352,35 @@ async function main() {
         websiteQualityScore: qualityScore,
       },
       gapSummary: fixGaps(audit.gapSummary, row.state),
-    };
+    });
+  }
+
+  // Sort final output: by state, then city, then score desc
+  reports.sort((a, b) => {
+    if (a.state !== b.state) return (a.state || "").localeCompare(b.state || "");
+    if (a.city !== b.city) return (a.city || "").localeCompare(b.city || "");
+    return b.websiteQualityScore - a.websiteQualityScore;
   });
 
   writeFileSync(OUT, JSON.stringify(reports, null, 2));
-  console.log(`Wrote ${reports.length} reports to ${OUT}`);
+  console.log(`\nWrote ${reports.length} reports to ${OUT}`);
 
+  // Summary by city
+  const cityCounts = new Map();
+  const stateCounts = new Map();
   for (const r of reports) {
-    console.log(
-      `  ${r.totalScore.toString().padStart(3)} | ${r.name.padEnd(45)} | ${r.city}, ${r.state} | ${r.gapSummary.length} gaps | ~${r.impactEstimate.missedLeads} missed/mo`
-    );
+    cityCounts.set(`${r.city}, ${r.state}`, (cityCounts.get(`${r.city}, ${r.state}`) || 0) + 1);
+    stateCounts.set(r.state, (stateCounts.get(r.state) || 0) + 1);
+  }
+
+  console.log(`\nCoverage: ${cityCounts.size} cities, ${stateCounts.size} states`);
+  console.log(`\nReports per city:`);
+  for (const [city, count] of [...cityCounts.entries()].sort()) {
+    console.log(`  ${city.padEnd(30)} ${count}`);
+  }
+  console.log(`\nReports per state:`);
+  for (const [state, count] of [...stateCounts.entries()].sort()) {
+    console.log(`  ${state.padEnd(5)} ${count}`);
   }
 
   await client.end();

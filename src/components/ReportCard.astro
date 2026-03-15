@@ -55,7 +55,7 @@ const innerGap = compact ? "gap-3" : "gap-4";
     </span>
     <span class="w-px h-3 bg-rule flex-none"></span>
     <span class="text-xs font-mono text-ink-muted">
-      {report.rating}&#9733; ({report.reviewCount.toLocaleString()})
+      {report.rating}&#9733; ({(report.reviewCount ?? 0).toLocaleString()})
     </span>
   </div>
   <p class="text-xs font-mono text-danger font-semibold">
