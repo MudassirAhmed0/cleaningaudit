@@ -1,7 +1,7 @@
 ---
 title: "How Much Does a Cleaning Company Website Actually Cost in 2026"
 description: "From $0 DIY to $15,000 agency builds — we break down cleaning website costs against our 837-site audit data showing what actually converts clients."
-date: 2026-08-19
+date: 2026-01-18
 readTime: "12 min read"
 cover: "/blog/cover-cleaning-company-website-cost-2026.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "How to Write an About Page That Makes Customers Trust Your Cleaning Business"
 description: "Top-scoring cleaning websites all share one thing: an about page with team photos, owner story, and credentials. Most of the 837 sites we audited skip it."
-date: 2026-05-24
+date: 2026-01-03
 readTime: "11 min read"
 cover: "/blog/cover-about-page-cleaning-business.webp"
 ---

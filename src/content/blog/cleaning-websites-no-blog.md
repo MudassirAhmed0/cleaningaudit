@@ -1,7 +1,7 @@
 ---
 title: "51% of Cleaning Websites Have No Blog — Does Yours Need One"
 description: "427 of 837 audited cleaning websites have no blog at all. Here's when a blog actually helps a cleaning business grow — and when it doesn't."
-date: 2026-08-25
+date: 2026-02-03
 readTime: "12 min read"
 cover: "/blog/cover-cleaning-websites-no-blog.webp"
 ---

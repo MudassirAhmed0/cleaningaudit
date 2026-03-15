@@ -1,7 +1,7 @@
 ---
 title: "Yelp vs Google for Cleaning Businesses: Where Clients Actually Come From"
 description: "Our 837-site audit shows 76% of cleaning websites lack schema and 33% have NAP mismatches — crippling both Yelp and Google visibility. Here's where to invest."
-date: 2026-06-29
+date: 2026-03-14
 readTime: "11 min read"
 cover: "/blog/cover-yelp-vs-google-cleaning-businesses.webp"
 ---

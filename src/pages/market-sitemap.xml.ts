@@ -5,7 +5,7 @@ export const GET: APIRoute = async ({ site }) => {
   const siteUrl =
     import.meta.env.SITE_URL ||
     site?.href?.replace(/\/$/, "") ||
-    "https://cleaningaudit.co";
+    "https://www.cleaningaudit.co";
 
   const lastmod = marketData.generatedAt.split("T")[0];
 

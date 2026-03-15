@@ -1,7 +1,7 @@
 ---
 title: "Why Most Cleaning Websites Are Brochures Instead of Booking Machines"
 description: "We audited 837 cleaning websites and found the avg score is 38/100. Most sites inform but don't convert — here's what's actually broken."
-date: 2026-04-15
+date: 2026-01-31
 readTime: "12 min read"
 cover: "/blog/cover-cleaning-websites-brochures-not-booking-machines.webp"
 ---

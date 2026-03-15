@@ -1,7 +1,7 @@
 ---
 title: "Why Your Cleaning Website Needs a Satisfaction Guarantee"
 description: "67% of cleaning websites display no satisfaction guarantee. In an industry built on home access and trust, that silence costs bookings every day."
-date: 2026-05-18
+date: 2026-01-28
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-website-satisfaction-guarantee.webp"
 ---

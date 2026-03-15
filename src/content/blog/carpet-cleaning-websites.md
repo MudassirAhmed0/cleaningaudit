@@ -1,7 +1,7 @@
 ---
 title: "Carpet Cleaning Websites: What Ranks and What Converts"
 description: "Our audit of 837 cleaning websites shows carpet cleaning sites need different pages, pricing, and trust signals. Only 1.3% score above 80."
-date: 2026-08-01
+date: 2026-01-10
 readTime: "11 min read"
 cover: "/blog/cover-carpet-cleaning-websites.webp"
 ---

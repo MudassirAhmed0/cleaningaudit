@@ -1,7 +1,7 @@
 ---
 title: "Service Area Pages: How to Rank in Every City You Clean"
 description: "49% of cleaning websites have zero service area pages. Our 837-site audit shows how city-specific pages drive local rankings and where most companies fail."
-date: 2026-06-14
+date: 2026-03-01
 readTime: "12 min read"
 cover: "/blog/cover-service-area-pages-cleaning-business.webp"
 ---

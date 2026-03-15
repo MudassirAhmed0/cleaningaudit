@@ -1,7 +1,7 @@
 ---
 title: "Google Business Profile: The Complete Guide for Cleaning Companies"
 description: "33% of cleaning companies have phone mismatches between their website and Google Business Profile. Our 837-site audit reveals the GBP mistakes costing you leads."
-date: 2026-06-05
+date: 2026-02-13
 readTime: "11 min read"
 cover: "/blog/cover-google-business-profile-cleaning-companies.webp"
 ---

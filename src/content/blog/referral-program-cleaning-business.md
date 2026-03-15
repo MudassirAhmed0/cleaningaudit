@@ -1,7 +1,7 @@
 ---
 title: "How to Start a Referral Program for Your Cleaning Business"
 description: "Our 837-site audit found 46% of cleaning websites have no first-time offer. Referral programs turn satisfied clients into your best lead source at near-zero cost."
-date: 2026-08-13
+date: 2026-02-28
 readTime: "11 min read"
 cover: "/blog/cover-referral-program-cleaning-business.webp"
 ---

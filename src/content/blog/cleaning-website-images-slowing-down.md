@@ -1,7 +1,7 @@
 ---
 title: "Why Your Cleaning Website Images Are Slowing Everything Down"
 description: "Unoptimized images are the #1 speed killer on cleaning websites. Our audit of 837 sites shows most serve oversized photos that add 3-5 seconds to load time."
-date: 2026-07-20
+date: 2026-01-23
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-website-images-slowing-down.webp"
 ---

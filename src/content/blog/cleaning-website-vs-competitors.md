@@ -1,7 +1,7 @@
 ---
 title: "How Your Cleaning Website Stacks Up Against Competitors"
 description: "We scored 837 cleaning websites across 43 cities. The average was 38/100. Use our self-audit framework to see where you stand against real benchmarks."
-date: 2026-07-02
+date: 2026-01-30
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-website-vs-competitors.webp"
 ---

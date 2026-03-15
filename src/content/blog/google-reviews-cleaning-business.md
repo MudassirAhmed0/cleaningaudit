@@ -1,7 +1,7 @@
 ---
 title: "How to Get More Google Reviews for Your Cleaning Business"
 description: "Our audit of 837 cleaning websites found that companies displaying reviews score 14 points higher. Here's the review strategy that actually works."
-date: 2026-06-08
+date: 2026-02-17
 readTime: "11 min read"
 cover: "/blog/cover-google-reviews-cleaning-business.webp"
 ---

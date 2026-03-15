@@ -1,7 +1,7 @@
 ---
 title: "Cleaning Website Homepage Examples That Actually Convert"
 description: "We compared high-scoring vs low-scoring cleaning homepages from 837 audits. The differences are clear — and fixable in a weekend."
-date: 2026-04-24
+date: 2026-01-22
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-website-homepage-examples.webp"
 ---

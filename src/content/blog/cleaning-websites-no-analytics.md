@@ -1,7 +1,7 @@
 ---
 title: "Why 36% of Cleaning Websites Have No Analytics Installed"
 description: "301 of 837 audited cleaning websites have zero analytics. They can't measure traffic, track conversions, or identify what's losing them clients."
-date: 2026-08-22
+date: 2026-02-01
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-websites-no-analytics.webp"
 ---

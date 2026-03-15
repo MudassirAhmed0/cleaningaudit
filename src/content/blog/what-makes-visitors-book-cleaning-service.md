@@ -1,7 +1,7 @@
 ---
 title: "What Makes a Visitor Actually Book a Cleaning Service Online"
 description: "74% of cleaning websites have no booking widget and 46% skip first-time offers. We studied 837 sites to find what makes visitors actually book."
-date: 2026-03-31
+date: 2026-03-11
 readTime: "11 min read"
 cover: "/blog/cover-what-makes-visitors-book-cleaning-service.webp"
 ---

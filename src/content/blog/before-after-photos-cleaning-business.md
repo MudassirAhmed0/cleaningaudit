@@ -1,7 +1,7 @@
 ---
 title: "Before-and-After Photos That Help Cleaning Businesses Win More Jobs"
 description: "35% of cleaning websites have no gallery at all. Visual proof sells a visual service — here's what 837 audited sites reveal about portfolio impact."
-date: 2026-05-21
+date: 2026-01-05
 readTime: "11 min read"
 cover: "/blog/cover-before-after-photos-cleaning-business.webp"
 ---

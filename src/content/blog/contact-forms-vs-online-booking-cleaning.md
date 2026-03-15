@@ -1,7 +1,7 @@
 ---
 title: "Contact Forms vs Online Booking: Which Gets More Cleaning Leads"
 description: "73% of cleaning sites lack a contact form and 74% have no booking. We audited 837 websites to find which method actually converts more leads."
-date: 2026-04-12
+date: 2026-02-05
 readTime: "11 min read"
 cover: "/blog/cover-contact-forms-vs-online-booking-cleaning.webp"
 ---

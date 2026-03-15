@@ -1,7 +1,7 @@
 ---
 title: "How to Get Your Cleaning Business on the First Page of Google"
 description: "Only 1.3% of cleaning websites score above 80/100. Our 837-site audit reveals the exact SEO playbook that separates first-page cleaners from invisible ones."
-date: 2026-06-23
+date: 2026-01-11
 readTime: "12 min read"
 cover: "/blog/cover-cleaning-business-first-page-google.webp"
 ---

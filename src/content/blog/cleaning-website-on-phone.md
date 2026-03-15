@@ -1,7 +1,7 @@
 ---
 title: "What Your Cleaning Website Looks Like on a Phone (It's Probably Bad)"
 description: "We tested 837 cleaning websites on mobile. 62% have non-clickable phone numbers, 60% hide the CTA, and most load too slowly to hold attention."
-date: 2026-07-17
+date: 2026-01-27
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-website-on-phone.webp"
 ---

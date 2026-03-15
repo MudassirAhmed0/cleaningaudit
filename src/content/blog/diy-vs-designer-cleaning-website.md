@@ -1,7 +1,7 @@
 ---
 title: "DIY Website vs Hiring a Designer for Your Cleaning Business"
 description: "We compared DIY and professionally designed cleaning websites across 837 audits. The scores tell a surprising story about what actually matters."
-date: 2026-05-03
+date: 2026-02-09
 readTime: "11 min read"
 cover: "/blog/cover-diy-vs-designer-cleaning-website.webp"
 ---

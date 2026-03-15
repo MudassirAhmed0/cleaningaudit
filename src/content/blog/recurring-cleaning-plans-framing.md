@@ -1,7 +1,7 @@
 ---
 title: "Recurring Cleaning Plans: How to Frame Them So Clients Sign Up"
 description: "70% of 837 cleaning websites don't mention recurring plans. Recurring clients are worth 20x a one-time booking — and framing is why they sign up or don't."
-date: 2026-07-26
+date: 2026-02-26
 readTime: "11 min read"
 cover: "/blog/cover-recurring-cleaning-plans-framing.webp"
 ---

@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
-const siteUrl = import.meta.env.SITE_URL || Astro.site?.href?.replace(/\/$/, "") || "https://cleaningaudit.co";
+const siteUrl = import.meta.env.SITE_URL || Astro.site?.href?.replace(/\/$/, "") || "https://www.cleaningaudit.co";
 const postUrl = `${siteUrl}/blog/${post.id.replace(/\.md$/, "")}/`;
 const shareText = encodeURIComponent(post.data.title);
 

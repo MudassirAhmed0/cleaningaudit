@@ -1,7 +1,7 @@
 ---
 title: "Spring Cleaning Marketing: How to Capture the Seasonal Spike"
 description: "Search volume for cleaning services spikes 40-60% in March-April. Our 837-site audit shows most cleaning websites aren't ready to capture it."
-date: 2026-08-16
+date: 2026-03-03
 readTime: "11 min read"
 cover: "/blog/cover-spring-cleaning-marketing.webp"
 ---

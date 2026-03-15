@@ -1,7 +1,7 @@
 import type { APIRoute } from "astro";
 
 export const GET: APIRoute = ({ site }) => {
-  const siteUrl = import.meta.env.SITE_URL || site?.href?.replace(/\/$/, "") || "https://cleaningaudit.co";
+  const siteUrl = import.meta.env.SITE_URL || site?.href?.replace(/\/$/, "") || "https://www.cleaningaudit.co";
   const body = `User-agent: *
 Allow: /
 Disallow: /404

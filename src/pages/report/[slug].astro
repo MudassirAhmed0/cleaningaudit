@@ -68,7 +68,7 @@ const diagnosticColors: Record<string, { bg: string; border: string; text: strin
 const diagType = biz.diagnosticType || "blind-spender";
 const diagStyle = diagnosticColors[diagType] || diagnosticColors["blind-spender"];
 
-const siteUrl = import.meta.env.SITE_URL || "https://cleaningaudit.co";
+const siteUrl = import.meta.env.SITE_URL || "https://www.cleaningaudit.co";
 const reportUrl = `${siteUrl}/report/${report.slug}/`;
 const title = `Website Audit Report — ${report.name}`;
 const description = `Free diagnostic report for ${report.domain}. ${gaps.length} issues found — estimated ${impact.missedLeads} missed leads per month.`;

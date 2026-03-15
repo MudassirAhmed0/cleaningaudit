@@ -1,7 +1,7 @@
 ---
 title: "Why Your Cleaning Website Isn't Getting You Clients"
 description: "60% of cleaning websites have no CTA above the fold. 74% lack online booking. We audited 837 sites and found 5 conversion killers costing you clients."
-date: 2026-03-28
+date: 2026-01-26
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-website-not-getting-clients.webp"
 ---

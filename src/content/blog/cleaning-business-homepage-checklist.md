@@ -1,7 +1,7 @@
 ---
 title: "The Homepage Checklist Every Cleaning Business Owner Needs"
 description: "We audited 837 cleaning websites and scored them on 18+ conversion elements. Here's the data-backed checklist to fix your homepage."
-date: 2026-04-18
+date: 2026-01-13
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-business-homepage-checklist.webp"
 ---

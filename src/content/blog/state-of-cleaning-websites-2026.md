@@ -1,7 +1,7 @@
 ---
 title: "The State of Cleaning Company Websites in 2026"
 description: "Our 2026 report audited 837 cleaning websites across 43 cities. The average score is 38/100, and 69% still don't use HTTPS. Here's the full industry snapshot."
-date: 2026-03-25
+date: 2026-03-05
 readTime: "12 min read"
 cover: "/blog/cover-state-of-cleaning-websites-2026.webp"
 ---

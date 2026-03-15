@@ -1,7 +1,7 @@
 ---
 title: "We Audited 837 Cleaning Websites Across 43 Cities — 66% Scored Below 40"
 description: "We deep-audited 837 cleaning company websites across 43 cities and 11 states. The average score was 38/100 — and 66% scored below 40. Here's what we found."
-date: 2026-03-16
+date: 2026-03-09
 readTime: "12 min read"
 cover: "/blog/cover-we-audited-837-cleaning-websites.webp"
 ---

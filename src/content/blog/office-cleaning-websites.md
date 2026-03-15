@@ -1,7 +1,7 @@
 ---
 title: "Office Cleaning Websites: How to Win Facility Managers Online"
 description: "Facility managers evaluate cleaning vendors differently than homeowners. Our 837-site audit shows most cleaning websites aren't built for B2B conversion."
-date: 2026-08-07
+date: 2026-02-24
 readTime: "12 min read"
 cover: "/blog/cover-office-cleaning-websites.webp"
 ---

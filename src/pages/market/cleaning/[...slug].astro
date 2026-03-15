@@ -12,7 +12,7 @@ import MarketReports from "../../../components/market/MarketReports.astro";
 import marketData from "../../../data/market-data.json";
 import { gapNarratives, interpolate } from "../../../data/gap-narratives";
 
-const siteUrl = "https://cleaningaudit.co";
+const siteUrl = "https://www.cleaningaudit.co";
 
 export function getStaticPaths() {
   const paths: any[] = [];
@@ -100,7 +100,7 @@ const { type, state, city, problem, problemState } = Astro.props;
       url: `${siteUrl}/market/cleaning/${s.slug}/`,
       dateModified: marketData.generatedAt,
       author: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl },
-      publisher: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl, logo: { "@type": "ImageObject", url: `${siteUrl}/favicon.svg` } },
+      publisher: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl, logo: { "@type": "ImageObject", url: `${siteUrl}/og-image.png`, width: 1200, height: 630 } },
     },
     {
       "@context": "https://schema.org",
@@ -307,7 +307,7 @@ const { type, state, city, problem, problemState } = Astro.props;
       url: `${siteUrl}/market/cleaning/${c.slug}/`,
       dateModified: marketData.generatedAt,
       author: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl },
-      publisher: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl, logo: { "@type": "ImageObject", url: `${siteUrl}/favicon.svg` } },
+      publisher: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl, logo: { "@type": "ImageObject", url: `${siteUrl}/og-image.png`, width: 1200, height: 630 } },
     },
     {
       "@context": "https://schema.org",
@@ -536,7 +536,7 @@ const { type, state, city, problem, problemState } = Astro.props;
       url: `${siteUrl}/market/cleaning/${p.slug}/`,
       dateModified: marketData.generatedAt,
       author: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl },
-      publisher: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl, logo: { "@type": "ImageObject", url: `${siteUrl}/favicon.svg` } },
+      publisher: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl, logo: { "@type": "ImageObject", url: `${siteUrl}/og-image.png`, width: 1200, height: 630 } },
     },
     {
       "@context": "https://schema.org",
@@ -732,7 +732,7 @@ const { type, state, city, problem, problemState } = Astro.props;
       url: `${siteUrl}/market/cleaning/${p.slug}/${ps.slug}/`,
       dateModified: marketData.generatedAt,
       author: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl },
-      publisher: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl, logo: { "@type": "ImageObject", url: `${siteUrl}/favicon.svg` } },
+      publisher: { "@type": "Organization", name: "Cleaning Audit", url: siteUrl, logo: { "@type": "ImageObject", url: `${siteUrl}/og-image.png`, width: 1200, height: 630 } },
     },
     {
       "@context": "https://schema.org",

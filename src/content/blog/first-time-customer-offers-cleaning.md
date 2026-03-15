@@ -1,7 +1,7 @@
 ---
 title: "First-Time Customer Offers That Fill Your Cleaning Schedule"
 description: "46% of cleaning websites have no first-time offer — that's 382 companies skipping the easiest way to convert browsers into booked clients."
-date: 2026-04-09
+date: 2026-02-10
 readTime: "11 min read"
 cover: "/blog/cover-first-time-customer-offers-cleaning.webp"
 ---

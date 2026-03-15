@@ -1,7 +1,7 @@
 ---
 title: "5 Website Mistakes That Make Cleaning Businesses Look Untrustworthy"
 description: "69% of cleaning websites lack HTTPS and 67% show no guarantee. We found 5 trust-killing mistakes across 837 audited sites — here's what they cost."
-date: 2026-05-12
+date: 2026-03-10
 readTime: "11 min read"
 cover: "/blog/cover-website-mistakes-cleaning-businesses-untrustworthy.webp"
 ---

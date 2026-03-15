@@ -1,7 +1,7 @@
 ---
 title: "Green Cleaning: Why Eco-Friendly Messaging Wins More Clients"
 description: "Families with kids and pets actively search for eco-friendly cleaning services. Most of 837 audited cleaning websites never mention it — a costly gap."
-date: 2026-05-27
+date: 2026-02-18
 readTime: "11 min read"
 cover: "/blog/cover-green-cleaning-eco-friendly-messaging.webp"
 ---

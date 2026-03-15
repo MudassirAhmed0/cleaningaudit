@@ -1,7 +1,7 @@
 ---
 title: "The Deep Cleaning Page Your Website Is Missing"
 description: "55% of 837 cleaning websites have no dedicated deep cleaning page. That's 461 companies leaving their highest-ticket service without a conversion path."
-date: 2026-07-23
+date: 2026-02-07
 readTime: "11 min read"
 cover: "/blog/cover-deep-cleaning-page-missing.webp"
 ---

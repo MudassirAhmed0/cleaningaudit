@@ -1,7 +1,7 @@
 ---
 title: "Why Your Cleaning Business Doesn't Show Up for 'House Cleaning Near Me'"
 description: "76% of cleaning websites lack schema markup, telling Google nothing about their business. Our 837-site audit reveals why most cleaners are invisible in local search."
-date: 2026-06-20
+date: 2026-02-21
 readTime: "12 min read"
 cover: "/blog/cover-house-cleaning-near-me-not-showing.webp"
 ---

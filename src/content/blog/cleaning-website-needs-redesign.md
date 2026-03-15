@@ -1,7 +1,7 @@
 ---
 title: "How to Tell if Your Cleaning Website Needs a Redesign"
 description: "We scored 837 cleaning websites on 20+ criteria. If your site fails 5 or more of these checks, it's costing you clients every week."
-date: 2026-05-09
+date: 2026-01-24
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-website-needs-redesign.webp"
 ---

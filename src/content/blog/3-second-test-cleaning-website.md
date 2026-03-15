@@ -1,7 +1,7 @@
 ---
 title: "The 3-Second Test: What Visitors See When They Land on Your Cleaning Website"
 description: "60% of cleaning websites have no CTA above the fold. When we audited 837 sites, most failed the 3-second test — here's what visitors actually see."
-date: 2026-04-03
+date: 2026-01-02
 readTime: "11 min read"
 cover: "/blog/cover-3-second-test-cleaning-website.webp"
 ---

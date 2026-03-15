@@ -1,7 +1,7 @@
 ---
 title: "Cleaning Website Design Mistakes That Drive Customers Away"
 description: "837 cleaning websites audited. Avg score: 38/100. Here are the design mistakes costing cleaning companies leads — backed by data."
-date: 2026-04-27
+date: 2026-01-20
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-website-design-mistakes.webp"
 ---

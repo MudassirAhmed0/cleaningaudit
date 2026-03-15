@@ -1,7 +1,7 @@
 ---
 title: "How a Slow Website Costs Your Cleaning Business New Clients"
 description: "We measured load times across 837 cleaning websites. Most take too long, and visitors leave before seeing a single service. Here's the real cost."
-date: 2026-07-11
+date: 2026-03-02
 readTime: "11 min read"
 cover: "/blog/cover-slow-website-costs-cleaning-business-clients.webp"
 ---

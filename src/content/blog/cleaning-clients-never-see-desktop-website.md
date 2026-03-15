@@ -1,7 +1,7 @@
 ---
 title: "Why 70% of Cleaning Clients Will Never See Your Desktop Website"
 description: "Most cleaning searches happen on phones. Yet 62% of 837 audited cleaning sites don't even have a clickable phone number on mobile."
-date: 2026-07-14
+date: 2026-01-15
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-clients-never-see-desktop-website.webp"
 ---

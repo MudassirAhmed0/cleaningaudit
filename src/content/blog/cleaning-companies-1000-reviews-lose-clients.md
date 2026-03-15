@@ -1,7 +1,7 @@
 ---
 title: "How Cleaning Companies With 1,000+ Reviews Still Lose Clients Online"
 description: "We found cleaning companies with over 1,000 Google reviews scoring below 40 on their website. Massive reviews + a terrible site = lost bookings."
-date: 2026-05-30
+date: 2026-01-16
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-companies-1000-reviews-lose-clients.webp"
 ---

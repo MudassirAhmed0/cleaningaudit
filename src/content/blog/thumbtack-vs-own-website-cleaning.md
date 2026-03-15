@@ -1,7 +1,7 @@
 ---
 title: "Thumbtack vs Your Own Website: Where Should Cleaning Companies Invest"
 description: "Our 837-site audit shows the avg cleaning website scores 38/100 — pushing owners to Thumbtack. But platform dependency has a cost most don't calculate."
-date: 2026-06-26
+date: 2026-03-06
 readTime: "11 min read"
 cover: "/blog/cover-thumbtack-vs-own-website-cleaning.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "How to Show Up on Google Maps as a Cleaning Company"
 description: "76% of cleaning websites lack LocalBusiness schema — the markup Google needs to connect your site to Maps. Our 837-site audit shows what actually drives map pack ranking."
-date: 2026-06-11
+date: 2026-02-14
 readTime: "12 min read"
 cover: "/blog/cover-google-maps-cleaning-company.webp"
 ---

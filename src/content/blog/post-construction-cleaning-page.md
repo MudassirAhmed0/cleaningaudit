@@ -1,7 +1,7 @@
 ---
 title: "Post-Construction Cleaning: The High-Ticket Page Nobody Makes"
 description: "76% of cleaning websites have no specialty service pages. Post-construction cleaning is high-ticket, low-competition, and almost nobody builds a page for it."
-date: 2026-08-04
+date: 2026-02-25
 readTime: "11 min read"
 cover: "/blog/cover-post-construction-cleaning-page.webp"
 ---

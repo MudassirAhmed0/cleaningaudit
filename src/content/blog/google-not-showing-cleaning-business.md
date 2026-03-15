@@ -1,7 +1,7 @@
 ---
 title: "Why Google Isn't Showing Your Cleaning Business to Local Customers"
 description: "76% of cleaning websites have no schema markup and 61% have weak meta descriptions. Here's why Google can't understand — or recommend — your site."
-date: 2026-06-02
+date: 2026-02-16
 readTime: "12 min read"
 cover: "/blog/cover-google-not-showing-cleaning-business.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Why 'Call for a Quote' Is Losing You Cleaning Clients"
 description: "74% of cleaning sites have no instant quote option and 73% lack a contact form. We audited 837 sites and found 'call for a quote' is a conversion killer."
-date: 2026-04-06
+date: 2026-01-09
 readTime: "11 min read"
 cover: "/blog/cover-call-for-quote-losing-cleaning-clients.webp"
 ---

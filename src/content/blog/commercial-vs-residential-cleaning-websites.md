@@ -1,7 +1,7 @@
 ---
 title: "Commercial Cleaning Websites: What Business Clients Expect vs Residential"
 description: "Commercial cleaning clients evaluate websites differently than homeowners. Our 837-site audit shows most cleaning companies treat both audiences the same — a costly mistake."
-date: 2026-07-29
+date: 2026-02-04
 readTime: "12 min read"
 cover: "/blog/cover-commercial-vs-residential-cleaning-websites.webp"
 ---

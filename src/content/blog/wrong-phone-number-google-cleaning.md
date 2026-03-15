@@ -1,7 +1,7 @@
 ---
 title: "Why 33% of Cleaning Companies Have the Wrong Phone Number on Google"
 description: "274 of 837 cleaning websites show a different phone number than their Google listing. That mismatch costs trust, rankings, and booked jobs."
-date: 2026-07-08
+date: 2026-03-13
 readTime: "11 min read"
 cover: "/blog/cover-wrong-phone-number-google-cleaning.webp"
 ---

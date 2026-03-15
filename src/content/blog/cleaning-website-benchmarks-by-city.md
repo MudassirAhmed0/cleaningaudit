@@ -1,7 +1,7 @@
 ---
 title: "Cleaning Website Benchmarks by City: How Your Market Compares"
 description: "We ranked cleaning websites across 43 cities. Austin averages 61/100 while Charlotte sits at 22. See where your market stands and what the gap means."
-date: 2026-03-22
+date: 2026-01-19
 readTime: "11 min read"
 cover: "/blog/cover-cleaning-website-benchmarks-by-city.webp"
 ---
