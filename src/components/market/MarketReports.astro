@@ -35,7 +35,7 @@ if (gapMatch) {
 }
 
 // Sort by score descending, take limit
-filtered = filtered.sort((a, b) => b.totalScore - a.totalScore).slice(0, limit);
+filtered = filtered.sort((a, b) => (b.websiteQualityScore ?? b.totalScore) - (a.websiteQualityScore ?? a.totalScore)).slice(0, limit);
 
 // Don't render if no matching reports
 if (filtered.length === 0) return;

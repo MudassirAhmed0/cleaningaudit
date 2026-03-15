@@ -8,10 +8,11 @@ interface Props {
 
 const { report, compact = false } = Astro.props;
 
+const score = report.websiteQualityScore ?? report.totalScore;
 const circumference = 2 * Math.PI * 20;
-const offset = circumference - (report.totalScore / 100) * circumference;
+const offset = circumference - (score / 100) * circumference;
 const scoreColor =
-  report.totalScore >= 80 ? "#10b981" : report.totalScore >= 60 ? "#f59e0b" : "#f87171";
+  score >= 80 ? "#10b981" : score >= 60 ? "#f59e0b" : "#f87171";
 
 const ringSize = compact ? "w-10 h-10" : "w-12 h-12";
 const scoreTextSize = compact ? "text-[10px]" : "text-xs";
@@ -39,7 +40,7 @@ const innerGap = compact ? "gap-3" : "gap-4";
         />
       </svg>
       <div class="absolute inset-0 flex items-center justify-center">
-        <span class={`${scoreTextSize} font-bold`} style={`color:${scoreColor}`}>{report.totalScore}</span>
+        <span class={`${scoreTextSize} font-bold`} style={`color:${scoreColor}`}>{score}</span>
       </div>
     </div>
     <div class="min-w-0">
