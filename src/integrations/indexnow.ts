@@ -70,16 +70,9 @@ function mapFileToUrls(file: string, root: string): string[] {
     urls.push(`${SITE}/blog/`);
   }
 
-  // Report data changed — submit all report pages
+  // Report data changed — only submit the reports listing page (individual reports are noindexed)
   else if (file === "src/data/reports.json" || file === "src/data/reports.ts") {
     urls.push(`${SITE}/reports/`);
-    const reportsFile = path.join(root, "src/data/reports.json");
-    if (fs.existsSync(reportsFile)) {
-      const reports = JSON.parse(fs.readFileSync(reportsFile, "utf8"));
-      for (const report of reports) {
-        urls.push(`${SITE}/report/${report.slug}/`);
-      }
-    }
   }
 
   // Report page template change
