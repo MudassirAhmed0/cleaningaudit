@@ -2,50 +2,50 @@
 const problems = [
   {
     num: "01",
-    stat: 18.4,
-    suffix: "s",
-    label: "Average Load Time",
-    description: "The average Cleaning website we audited takes 18.4 seconds to load. Google recommends under 3. Every second over costs you 7% in conversions.",
+    stat: 74,
+    suffix: "%",
+    label: "No Online Booking",
+    description: "3 out of 4 cleaning websites have no way to book online. Customers expect to schedule a cleaning the same way they order food — instantly. No booking widget means they'll find one who has it.",
     severity: "critical",
   },
   {
     num: "02",
-    stat: 60,
+    stat: 73,
     suffix: "%",
-    label: "No SSL Certificate",
-    description: "6 out of 10 Cleaning sites we scanned have no SSL. Chrome flags these as 'Not Secure' — your customers see a warning before they see your business.",
+    label: "No Pricing Page",
+    description: "73% of cleaning sites hide their pricing. Homeowners comparison-shop. If they can't see a ballpark number on your site, they move on to the one that shows it.",
     severity: "critical",
   },
   {
     num: "03",
-    stat: 40,
+    stat: 65,
     suffix: "%",
-    label: "No Clear CTA",
-    description: "40% of Cleaning websites have no obvious call-to-action. Visitors land, see no 'Book Now' or 'Call Us' button, and leave. That's money walking out the door.",
+    label: "No Contact Form",
+    description: "65% of cleaning websites have no contact form. If a customer can't reach you in 10 seconds, they're calling your competitor.",
     severity: "high",
   },
   {
     num: "04",
-    stat: 50,
+    stat: 62,
     suffix: "%",
-    label: "No Contact Form",
-    description: "Half the sites we audited have no contact form at all. If a customer can't reach you in 10 seconds, they're calling your competitor.",
+    label: "Phone Not Clickable",
+    description: "62% of sites have a phone number that isn't tap-to-call on mobile. Over 60% of your visitors are on their phones. Making them copy-paste your number loses half of them.",
     severity: "high",
   },
   {
     num: "05",
-    stat: 0,
-    suffix: "",
+    stat: 51,
+    suffix: "%",
     label: "No Reviews Displayed",
-    description: "Cleaning businesses average 4.85 stars on Google — but almost none display those reviews on their website. You're sitting on social proof and not using it.",
+    description: "Cleaning businesses average 4.8 stars on Google — but over half don't show reviews on their website. You're sitting on social proof and not using it.",
     severity: "medium",
   },
   {
     num: "06",
-    stat: 0,
-    suffix: "",
-    label: "No SEO Meta Tags",
-    description: "Most Cleaning sites have no meta descriptions, no title tags, no structured data. Google can't rank what it can't read. You're invisible to local search.",
+    stat: 46,
+    suffix: "%",
+    label: "No Trust Signals",
+    description: "46% of cleaning sites don't mention being bonded, insured, or background-checked. You're asking strangers to let you into their home — and not addressing their #1 concern.",
     severity: "medium",
   },
 ];
@@ -73,7 +73,7 @@ const severityColors: Record<string, string> = {
         style="--delay: 100ms"
         class="text-3xl md:text-5xl lg:text-[3.5rem] font-bold leading-[0.95] tracking-tight"
       >
-        We audited 147 Cleaning websites.<br class="hidden md:block" />
+        We audited 1,200+ cleaning websites.<br class="hidden md:block" />
         Here's what we <span class="text-accent">found.</span>
       </h2>
     </div>

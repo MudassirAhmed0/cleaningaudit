@@ -1,7 +1,7 @@
 /**
- * Pulls curated HVAC audit reports from Postgres and writes src/data/reports.json.
+ * Pulls curated cleaning audit reports from Postgres and writes src/data/reports.json.
  *
- * Usage:  DATABASE_URL=postgres://... node scripts/sync-reports.mjs
+ * Usage:  npm run sync-reports
  * Env:    DATABASE_URL (required)
  */
 
@@ -16,17 +16,17 @@ const OUT = join(__dirname, "..", "src", "data", "reports.json");
 
 // ── Curated lead IDs ────────────────────────────────────────────────
 // Hand-picked for score variety, city diversity, and interesting issue profiles.
-// To add a report: add its lead ID here, run `node scripts/sync-reports.mjs`.
+// To add a report: add its lead ID here, run `npm run sync-reports`.
 const CURATED_IDS = [
-  13,  // Tiger Air and Heating — Dallas, TX (Score 60)
-  14,  // Harlen Johnson HVAC — Dallas, TX (Score 60)
-  12,  // Rescue Air and Plumbing — Dallas, TX (Score 80)
-  148, // Air Tech of Houston — Houston, TX (Score 30)
-  328, // Veteran Air — San Antonio, TX (Score 45)
-  395, // RedHome HVAC Services — Austin, TX (Score 50)
-  263, // AZ Perfect Comfort — Phoenix, AZ (Score 60)
-  380, // Caldeco Air Conditioning — Tampa, FL (Score 60)
-  181, // The Chill Brothers — Houston, TX (Score 70)
+  501,  // Detail Cleaning Services — Houston, TX (9 gaps)
+  578,  // Extreme Maids — Tampa, FL (6 gaps)
+  557,  // Tidy Casa — Phoenix, AZ (7 gaps)
+  4639, // Go 2 Girls — Raleigh, NC (25 gaps)
+  4762, // DJO Home Cleaning-Atlanta — Atlanta, GA (22 gaps)
+  4996, // You've Got Maids of Henderson — Henderson, NV (27 gaps)
+  5300, // Extreme Clean Solutions — Oklahoma City, OK (28 gaps)
+  2475, // Nekoblue Services — Miami, FL (18 gaps)
+  5056, // The Cleaning Crew Charleston — Charleston, SC (23 gaps)
 ];
 
 const DB_URL = process.env.DATABASE_URL;
@@ -37,9 +37,9 @@ if (!DB_URL) {
 
 // ── State-specific licensing text ───────────────────────────────────
 const LICENSE_TEXT = {
-  TX: "Texas requires TDLR/TACL licensing for HVAC work. Not showing the license number makes the business look less legitimate than competitors who display theirs.",
-  AZ: "Arizona requires ROC (Registrar of Contractors) licensing for HVAC work. Not showing the license number makes the business look less legitimate than competitors who display theirs.",
-  FL: "Florida requires state contractor licensing for HVAC work. Not showing the license number makes the business look less legitimate than competitors who display theirs.",
+  TX: "Displaying a business license number builds trust with homeowners. Not showing it makes the business look less legitimate than competitors who display theirs.",
+  AZ: "Displaying a business license number builds trust with homeowners. Not showing it makes the business look less legitimate than competitors who display theirs.",
+  FL: "Displaying a business license or bonding number builds trust with homeowners. Not showing it makes the business look less legitimate than competitors who display theirs.",
 };
 
 // ── Website Quality Score (mirrors hvac.ts calculateWebsiteQualityScore) ─
@@ -192,7 +192,7 @@ function buildImpactEstimate(audit, lead) {
   const bookingRate = 5;
   const missedLeadsLow = Math.max(2, Math.round(bouncedVisitors * bookingRate / 100 * 0.7));
   const missedLeadsHigh = Math.max(3, Math.round(bouncedVisitors * bookingRate / 100 * 1.3));
-  const avgServiceCall = 400;
+  const avgServiceCall = 200; // avg cleaning job value
   const missedRevLow = missedLeadsLow * avgServiceCall;
   const missedRevHigh = missedLeadsHigh * avgServiceCall;
 
@@ -207,8 +207,8 @@ function buildImpactEstimate(audit, lead) {
     missedRepairRevenue: `$${missedRevLow.toLocaleString()}-$${missedRevHigh.toLocaleString()}`,
     installNote:
       missedLeadsHigh >= 10
-        ? `If even 2 of those were system replacements, that's another $16,000-$30,000.`
-        : `If even 1 of those was a system replacement, that's another $8,000-$15,000.`,
+        ? `If even 3 of those became recurring weekly clients, that's another $2,400-$3,600/month.`
+        : `If even 1 became a recurring weekly client, that's another $800-$1,200/month.`,
   };
 }
 

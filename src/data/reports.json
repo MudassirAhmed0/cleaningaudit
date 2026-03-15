@@ -1,1 +1,1763 @@
-[]
+[
+  {
+    "slug": "detail-cleaning-services",
+    "name": "Detail Cleaning Services",
+    "domain": "detailcleanings.com",
+    "website": "https://detailcleanings.com",
+    "rating": 4.9,
+    "reviewCount": 1322,
+    "city": "Houston",
+    "state": "TX",
+    "totalScore": 80,
+    "websiteQualityScore": 72,
+    "impactEstimate": {
+      "monthlyVisitors": 1200,
+      "bounceReason": "6s load time (53% leave after 3s) + Chrome \"Not Secure\" warning on HTTP links + no visible reviews",
+      "bouncePercent": 39,
+      "bouncedVisitors": 462,
+      "bookingRate": 5,
+      "missedLeads": "16-30",
+      "avgServiceCall": 200,
+      "missedRepairRevenue": "$3,200-$6,000",
+      "installNote": "If even 3 of those became recurring weekly clients, that's another $2,400-$3,600/month."
+    },
+    "businessSummary": {
+      "oneLiner": "1322 4.9★ reviews are hidden from website visitors. For in-home services, that's leaving trust — and revenue — on the table. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "topThreeGaps": [
+        "HTTP does not redirect to HTTPS",
+        "Site loads in 6s — over 50% of visitors leave",
+        "1322 Google reviews not displayed on website"
+      ],
+      "seasonalUrgency": "Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "growthOpportunity": "Full website rebuild + instant quote system + 20 service area pages + recurring plan funnel + SEO optimization ($1,000-$2,000/month retainer)",
+      "competitivePosition": "Detail Cleaning Services has a 4.9★ rating with 1322 reviews in Houston.",
+      "estimatedAnnualLtvLost": "$76K-$151K",
+      "recommendedFirstProject": "HTTP does not redirect to HTTPS + 1322 Google reviews not displayed on website",
+      "estimatedTotalMonthlyCost": "$756-$2K",
+      "recommendedFirstProjectPrice": "$1,000-$2,500",
+      "recommendedFirstProjectTimeline": "1-2 weeks",
+      "diagnosticType": "pretty-and-broken",
+      "diagnosticLabel": "The Leaky Funnel",
+      "diagnosticHeadline": "Your site looks fine — it's quietly losing you leads",
+      "diagnosticDescription": "You're spending on marketing and your site scores 72/100 — above the 34-point industry average. But 9 hidden issues are killing your conversions. Estimated leak: $756-$2K/month.",
+      "websiteQualityScore": 72
+    },
+    "gapSummary": [
+      {
+        "gap": "HTTP does not redirect to HTTPS",
+        "impact": "Detail Cleaning Services's site has SSL but doesn't force HTTPS. Some visitors see Chrome's \"Not Secure\" warning. A simple redirect rule fixes this.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Site loads in 6s — over 50% of visitors leave",
+        "impact": "At 6s, more than half of potential customers never see the site. In cleaning, a lost lead isn't just one $180 clean — it's a $4,500 recurring customer.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "1322 Google reviews not displayed on website",
+        "impact": "Detail Cleaning Services has a 4.9★ rating with 1322 reviews — but website visitors never see them. For in-home services, social proof is everything. On-site reviews increase conversions up to 270%.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No pricing page",
+        "impact": "Homeowners comparing cleaning services want to see pricing upfront. \"Call for a quote\" loses to the competitor who shows \"$120 for a 2BR/1BA.\" Transparency builds trust.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Paying for traffic to a no-trust site",
+        "impact": "Running ads (GA4, GTM, Facebook Pixel, Google Ads detected) but the site has zero social proof. 1322 reviews exist but visitors can't see them. Ad spend is being wasted.",
+        "category": "business",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No satisfaction guarantee",
+        "impact": "No \"100% satisfaction guarantee\" or \"we'll come back\" promise. This is standard in cleaning and removes the risk for first-time customers.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No LocalBusiness schema markup",
+        "impact": "Google can't understand the business type, service area, or hours from the code. Schema markup helps show rich results in local search.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "No Airbnb/vacation rental cleaning page",
+        "impact": "Airbnb turnover cleaning is a growing high-frequency revenue stream. Without a dedicated page, this market segment goes to competitors.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "33 unoptimized images",
+        "impact": "Not in WebP/AVIF format. Converting them cuts page size and improves load time.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$100-$400"
+      }
+    ]
+  },
+  {
+    "slug": "extreme-maids",
+    "name": "Extreme Maids",
+    "domain": "extrememaids.com",
+    "website": "https://www.extrememaids.com",
+    "rating": 4.8,
+    "reviewCount": 321,
+    "city": "Tampa",
+    "state": "FL",
+    "totalScore": 80,
+    "websiteQualityScore": 53,
+    "impactEstimate": {
+      "monthlyVisitors": 500,
+      "bounceReason": "7.9s load time (53% leave after 3s) + Chrome \"Not Secure\" warning on HTTP links + no contact form",
+      "bouncePercent": 40,
+      "bouncedVisitors": 200,
+      "bookingRate": 5,
+      "missedLeads": "7-13",
+      "avgServiceCall": 200,
+      "missedRepairRevenue": "$1,400-$2,600",
+      "installNote": "If even 3 of those became recurring weekly clients, that's another $2,400-$3,600/month."
+    },
+    "businessSummary": {
+      "oneLiner": "HTTP does not redirect to HTTPS found. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "topThreeGaps": [
+        "HTTP does not redirect to HTTPS",
+        "Site loads in 7.9s — over 50% of visitors leave",
+        "No contact form"
+      ],
+      "seasonalUrgency": "Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "growthOpportunity": "Full website rebuild + instant quote system + 20 service area pages + recurring plan funnel + SEO optimization ($1,000-$2,000/month retainer)",
+      "competitivePosition": "Extreme Maids has a 4.8★ rating with 321 reviews in Tampa.",
+      "estimatedAnnualLtvLost": "$65K-$130K",
+      "recommendedFirstProject": "HTTP does not redirect to HTTPS + No contact form",
+      "estimatedTotalMonthlyCost": "$648-$2K",
+      "recommendedFirstProjectPrice": "$1,000-$2,500",
+      "recommendedFirstProjectTimeline": "1-2 weeks",
+      "diagnosticType": "pretty-and-broken",
+      "diagnosticLabel": "The Leaky Funnel",
+      "diagnosticHeadline": "Your site looks fine — it's quietly losing you leads",
+      "diagnosticDescription": "You're spending on marketing and your site scores 53/100 — above the 34-point industry average. But 6 hidden issues are killing your conversions. Estimated leak: $648-$2K/month.",
+      "websiteQualityScore": 53
+    },
+    "gapSummary": [
+      {
+        "gap": "HTTP does not redirect to HTTPS",
+        "impact": "Extreme Maids's site has SSL but doesn't force HTTPS. Some visitors see Chrome's \"Not Secure\" warning. A simple redirect rule fixes this.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Site loads in 7.9s — over 50% of visitors leave",
+        "impact": "At 7.9s, more than half of potential customers never see the site. In cleaning, a lost lead isn't just one $180 clean — it's a $4,500 recurring customer.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No contact form",
+        "impact": "Only a phone number. Many homeowners prefer to submit a request rather than call — especially for scheduling regular cleaning.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$2,500"
+      },
+      {
+        "gap": "No satisfaction guarantee",
+        "impact": "No \"100% satisfaction guarantee\" or \"we'll come back\" promise. This is standard in cleaning and removes the risk for first-time customers.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "34 unoptimized images",
+        "impact": "Not in WebP/AVIF format. Converting them cuts page size and improves load time.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$100-$400"
+      },
+      {
+        "gap": "Image alt tag coverage only 79%",
+        "impact": "Most images lack alt text. Hurts SEO and accessibility.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$400"
+      }
+    ]
+  },
+  {
+    "slug": "tidy-casa",
+    "name": "Tidy Casa",
+    "domain": "tidycasa.com",
+    "website": "https://tidycasa.com",
+    "rating": 4.8,
+    "reviewCount": 766,
+    "city": "Phoenix",
+    "state": "AZ",
+    "totalScore": 80,
+    "websiteQualityScore": 69,
+    "impactEstimate": {
+      "monthlyVisitors": 800,
+      "bounceReason": "Chrome \"Not Secure\" warning on HTTP links + no contact form",
+      "bouncePercent": 39,
+      "bouncedVisitors": 308,
+      "bookingRate": 5,
+      "missedLeads": "11-20",
+      "avgServiceCall": 200,
+      "missedRepairRevenue": "$2,200-$4,000",
+      "installNote": "If even 3 of those became recurring weekly clients, that's another $2,400-$3,600/month."
+    },
+    "businessSummary": {
+      "oneLiner": "HTTP does not redirect to HTTPS found. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "topThreeGaps": [
+        "HTTP does not redirect to HTTPS",
+        "No contact form",
+        "No recurring cleaning plan framing"
+      ],
+      "seasonalUrgency": "Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "growthOpportunity": "Full website rebuild + instant quote system + 26 service area pages + recurring plan funnel + SEO optimization ($1,000-$2,000/month retainer)",
+      "competitivePosition": "Tidy Casa has a 4.8★ rating with 766 reviews in Phoenix.",
+      "estimatedAnnualLtvLost": "$76K-$151K",
+      "recommendedFirstProject": "HTTP does not redirect to HTTPS + No contact form",
+      "estimatedTotalMonthlyCost": "$1K-$3K",
+      "recommendedFirstProjectPrice": "$1,000-$2,500",
+      "recommendedFirstProjectTimeline": "1-2 weeks",
+      "diagnosticType": "pretty-and-broken",
+      "diagnosticLabel": "The Leaky Funnel",
+      "diagnosticHeadline": "Your site looks fine — it's quietly losing you leads",
+      "diagnosticDescription": "You're spending on marketing and your site scores 69/100 — above the 34-point industry average. But 7 hidden issues are killing your conversions. Estimated leak: $1K-$3K/month.",
+      "websiteQualityScore": 69
+    },
+    "gapSummary": [
+      {
+        "gap": "HTTP does not redirect to HTTPS",
+        "impact": "Tidy Casa's site has SSL but doesn't force HTTPS. Some visitors see Chrome's \"Not Secure\" warning. A simple redirect rule fixes this.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "No contact form",
+        "impact": "Only a phone number. Many homeowners prefer to submit a request rather than call — especially for scheduling regular cleaning.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$2,500"
+      },
+      {
+        "gap": "No recurring cleaning plan framing",
+        "impact": "No mention of weekly, biweekly, or monthly plans. Recurring customers are the lifeblood of a cleaning business ($4,500 LTV vs $180 one-time). The site should frame recurring as the default, not an afterthought.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No pricing page",
+        "impact": "Homeowners comparing cleaning services want to see pricing upfront. \"Call for a quote\" loses to the competitor who shows \"$120 for a 2BR/1BA.\" Transparency builds trust.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No satisfaction guarantee",
+        "impact": "No \"100% satisfaction guarantee\" or \"we'll come back\" promise. This is standard in cleaning and removes the risk for first-time customers.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No Airbnb/vacation rental cleaning page",
+        "impact": "Airbnb turnover cleaning is a growing high-frequency revenue stream. Without a dedicated page, this market segment goes to competitors.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "23 unoptimized images",
+        "impact": "Not in WebP/AVIF format. Converting them cuts page size and improves load time.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$100-$400"
+      }
+    ]
+  },
+  {
+    "slug": "go-2-girls",
+    "name": "Go 2 Girls",
+    "domain": "go-2-girls.com",
+    "website": "https://go-2-girls.com",
+    "rating": 4.8,
+    "reviewCount": 1008,
+    "city": "Raleigh",
+    "state": "NC",
+    "totalScore": 95,
+    "websiteQualityScore": 25,
+    "impactEstimate": {
+      "monthlyVisitors": 1200,
+      "bounceReason": "34.1s load time (53% leave after 3s) + Chrome \"Not Secure\" warning on HTTP links + phone not clickable on mobile",
+      "bouncePercent": 55,
+      "bouncedVisitors": 660,
+      "bookingRate": 5,
+      "missedLeads": "23-43",
+      "avgServiceCall": 200,
+      "missedRepairRevenue": "$4,600-$8,600",
+      "installNote": "If even 3 of those became recurring weekly clients, that's another $2,400-$3,600/month."
+    },
+    "businessSummary": {
+      "oneLiner": "Go 2 Girls's website asks people to let cleaners into their home — but shows no bonded/insured badges and no way to book online. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "strengths": [
+        "Reviews displayed on site (google)",
+        "Strong reputation: 4.8★ across 1008 reviews"
+      ],
+      "topThreeGaps": [
+        "Lead capture analysis incomplete",
+        "SEO analysis incomplete",
+        "HTTP does not redirect to HTTPS"
+      ],
+      "diagnosticType": "blind-spender",
+      "diagnosticLabel": "Blind Spender",
+      "seasonalUrgency": "Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "growthOpportunity": "Full website rebuild + instant quote system + 20 service area pages + recurring plan funnel + SEO optimization ($1,000-$2,000/month retainer)",
+      "diagnosticHeadline": "Paying for traffic that can't convert",
+      "competitivePosition": "Go 2 Girls has a 4.8★ rating with 1008 reviews in Raleigh. Missing instant quote puts them behind competitors who offer it.",
+      "websiteQualityScore": 25,
+      "diagnosticDescription": "Go 2 Girls is running ads but the site has 4 critical conversion gaps. Ad spend is leaking.",
+      "estimatedAnnualLtvLost": "$1.0M-$2.0M",
+      "recommendedFirstProject": "click-to-call + trust badges",
+      "estimatedTotalMonthlyCost": "$14K-$35K",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days"
+    },
+    "gapSummary": [
+      {
+        "gap": "Lead capture analysis incomplete",
+        "impact": "We couldn't fully analyze contact forms, booking widgets, and CTAs. Manual review recommended.",
+        "category": "lead-capture",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "TBD"
+      },
+      {
+        "gap": "SEO analysis incomplete",
+        "impact": "We couldn't fully analyze meta tags, schema, and SEO elements. Manual review recommended.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "TBD"
+      },
+      {
+        "gap": "HTTP does not redirect to HTTPS",
+        "impact": "Go 2 Girls's site has SSL but doesn't force HTTPS. Some visitors see Chrome's \"Not Secure\" warning. A simple redirect rule fixes this.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Phone number not clickable on mobile",
+        "impact": "73% of cleaning searches happen on mobile. Visitors have to manually type the number. Most will tap the back button and call the competitor who makes it one tap.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$3,500"
+      },
+      {
+        "gap": "Site loads in 34.1s — over 50% of visitors leave",
+        "impact": "At 34.1s, more than half of potential customers never see the site. In cleaning, a lost lead isn't just one $180 clean — it's a $4,500 recurring customer.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No 'bonded, insured, background-checked' messaging",
+        "impact": "Cleaning is an in-home service. Homeowners need to feel safe letting cleaners into their house. Without \"bonded\", \"insured\", or \"background-checked\" messaging, trust drops immediately. Competitors who show this win.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "No online booking or instant quote",
+        "impact": "No ZenMaid, BookingKoala, or any booking widget. No bedroom/bathroom price calculator. Visitors expect instant pricing for cleaning services — without it, many abandon before contacting. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$2,500-$6,000"
+      },
+      {
+        "gap": "No clear CTA above the fold",
+        "impact": "Visitors land on the page and don't know what to do next. No \"Book a Cleaning\", \"Get Instant Quote\", or \"Schedule Online\" visible without scrolling.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No contact form",
+        "impact": "Only a phone number. Many homeowners prefer to submit a request rather than call — especially for scheduling regular cleaning.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$2,500"
+      },
+      {
+        "gap": "No recurring cleaning plan framing",
+        "impact": "No mention of weekly, biweekly, or monthly plans. Recurring customers are the lifeblood of a cleaning business ($4,500 LTV vs $180 one-time). The site should frame recurring as the default, not an afterthought.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No pricing page",
+        "impact": "Homeowners comparing cleaning services want to see pricing upfront. \"Call for a quote\" loses to the competitor who shows \"$120 for a 2BR/1BA.\" Transparency builds trust.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No satisfaction guarantee",
+        "impact": "No \"100% satisfaction guarantee\" or \"we'll come back\" promise. This is standard in cleaning and removes the risk for first-time customers.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No LocalBusiness schema markup",
+        "impact": "Google can't understand the business type, service area, or hours from the code. Schema markup helps show rich results in local search.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "Missing or weak meta description",
+        "impact": "The meta description controls what people see in Google search results. Without one, Google picks random text from the page.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "No Airbnb/vacation rental cleaning page",
+        "impact": "Airbnb turnover cleaning is a growing high-frequency revenue stream. Without a dedicated page, this market segment goes to competitors.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "14 unoptimized images",
+        "impact": "Not in WebP/AVIF format. Converting them cuts page size and improves load time.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$100-$400"
+      },
+      {
+        "gap": "Image alt tag coverage only 0%",
+        "impact": "Most images lack alt text. Hurts SEO and accessibility.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$400"
+      },
+      {
+        "gap": "No eco-friendly/green cleaning messaging",
+        "impact": "No mention of green, non-toxic, or eco-friendly products. Families with kids and pets specifically search for this. It's a key differentiator.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,200"
+      },
+      {
+        "gap": "No before/after gallery or portfolio",
+        "impact": "No visual proof of cleaning results. Before/after photos are powerful conversion tools for visual services like cleaning.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "No first-time customer offer",
+        "impact": "No introductory discount or first-clean special. First-time offers reduce hesitation and get new customers in the door. Competitors using \"$20 off your first clean\" win more trials.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "Missing viewport meta tag — not mobile-optimized",
+        "impact": "No viewport meta tag means the site renders at desktop width on mobile. Google's mobile-first indexing penalizes this.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Missing canonical tag",
+        "impact": "No canonical URL specified. This can cause duplicate content issues if the site is accessible via multiple URLs (www vs non-www, HTTP vs HTTPS).",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No H1 heading on homepage",
+        "impact": "Missing the primary heading tag. The H1 tells Google the main topic of the page. Without it, the page lacks semantic structure.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      },
+      {
+        "gap": "No referral program mentioned",
+        "impact": "With 1008+ reviews, existing customers clearly like the service. A referral program turns happy customers into a lead generation engine.",
+        "category": "business",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$600"
+      },
+      {
+        "gap": "No copyright notice in footer",
+        "impact": "No copyright notice found. This is a minor professionalism signal that takes seconds to add.",
+        "category": "trust",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$50-$100"
+      }
+    ]
+  },
+  {
+    "slug": "djo-home-cleaning-atlanta",
+    "name": "DJO Home Cleaning-Atlanta",
+    "domain": "djohomecleaning.com",
+    "website": "https://www.djohomecleaning.com",
+    "rating": 4.8,
+    "reviewCount": 134,
+    "city": "Atlanta",
+    "state": "GA",
+    "totalScore": 95,
+    "websiteQualityScore": 20,
+    "impactEstimate": {
+      "monthlyVisitors": 350,
+      "bounceReason": "34.5s load time (53% leave after 3s) + Chrome \"Not Secure\" warning on HTTP links + phone not clickable on mobile",
+      "bouncePercent": 55,
+      "bouncedVisitors": 193,
+      "bookingRate": 5,
+      "missedLeads": "7-13",
+      "avgServiceCall": 200,
+      "missedRepairRevenue": "$1,400-$2,600",
+      "installNote": "If even 3 of those became recurring weekly clients, that's another $2,400-$3,600/month."
+    },
+    "businessSummary": {
+      "oneLiner": "DJO Home Cleaning-Atlanta is paying for ads but the site has 4 critical gaps. Traffic is arriving — and leaving. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "strengths": [
+        "Bonded & insured messaging prominent",
+        "Satisfaction guarantee prominently displayed",
+        "Eco-friendly messaging (eco-friendly, non-toxic, organic products)",
+        "Strong reputation: 4.8★ across 134 reviews",
+        "Before/after gallery showcases work quality",
+        "Active social presence (3 platforms)"
+      ],
+      "topThreeGaps": [
+        "Lead capture analysis incomplete",
+        "SEO analysis incomplete",
+        "HTTP does not redirect to HTTPS"
+      ],
+      "diagnosticType": "blind-spender",
+      "diagnosticLabel": "Blind Spender",
+      "seasonalUrgency": "Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "growthOpportunity": "Full website rebuild + instant quote system + 20 service area pages + recurring plan funnel + SEO optimization ($1,000-$2,000/month retainer)",
+      "diagnosticHeadline": "Paying for traffic that can't convert",
+      "competitivePosition": "DJO Home Cleaning-Atlanta has a 4.8★ rating with 134 reviews in Atlanta. Missing instant quote puts them behind competitors who offer it.",
+      "websiteQualityScore": 20,
+      "diagnosticDescription": "DJO Home Cleaning-Atlanta is running ads but the site has 4 critical conversion gaps. Ad spend is leaking.",
+      "estimatedAnnualLtvLost": "$173K-$346K",
+      "recommendedFirstProject": "click-to-call + click-to-call",
+      "estimatedTotalMonthlyCost": "$2K-$6K",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days"
+    },
+    "gapSummary": [
+      {
+        "gap": "Lead capture analysis incomplete",
+        "impact": "We couldn't fully analyze contact forms, booking widgets, and CTAs. Manual review recommended.",
+        "category": "lead-capture",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "TBD"
+      },
+      {
+        "gap": "SEO analysis incomplete",
+        "impact": "We couldn't fully analyze meta tags, schema, and SEO elements. Manual review recommended.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "TBD"
+      },
+      {
+        "gap": "HTTP does not redirect to HTTPS",
+        "impact": "DJO Home Cleaning-Atlanta's site has SSL but doesn't force HTTPS. Some visitors see Chrome's \"Not Secure\" warning. A simple redirect rule fixes this.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Phone number not clickable on mobile",
+        "impact": "73% of cleaning searches happen on mobile. Visitors have to manually type the number. Most will tap the back button and call the competitor who makes it one tap.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$3,500"
+      },
+      {
+        "gap": "Site loads in 34.5s — over 50% of visitors leave",
+        "impact": "At 34.5s, more than half of potential customers never see the site. In cleaning, a lost lead isn't just one $180 clean — it's a $4,500 recurring customer.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No online booking or instant quote",
+        "impact": "No ZenMaid, BookingKoala, or any booking widget. No bedroom/bathroom price calculator. Visitors expect instant pricing for cleaning services — without it, many abandon before contacting. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$2,500-$6,000"
+      },
+      {
+        "gap": "Phone number mismatch with Google Business Profile",
+        "impact": "Website: (800) 215-3197, GBP: +1 470-568-5121. Google uses NAP consistency to rank local businesses. This mismatch hurts the map pack position.",
+        "category": "business",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No clear CTA above the fold",
+        "impact": "Visitors land on the page and don't know what to do next. No \"Book a Cleaning\", \"Get Instant Quote\", or \"Schedule Online\" visible without scrolling.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No contact form",
+        "impact": "Only a phone number. Many homeowners prefer to submit a request rather than call — especially for scheduling regular cleaning.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$2,500"
+      },
+      {
+        "gap": "134 Google reviews not displayed on website",
+        "impact": "DJO Home Cleaning-Atlanta has a 4.8★ rating with 134 reviews — but website visitors never see them. For in-home services, social proof is everything. On-site reviews increase conversions up to 270%.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No recurring cleaning plan framing",
+        "impact": "No mention of weekly, biweekly, or monthly plans. Recurring customers are the lifeblood of a cleaning business ($4,500 LTV vs $180 one-time). The site should frame recurring as the default, not an afterthought.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No pricing page",
+        "impact": "Homeowners comparing cleaning services want to see pricing upfront. \"Call for a quote\" loses to the competitor who shows \"$120 for a 2BR/1BA.\" Transparency builds trust.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Paying for traffic to a no-trust site",
+        "impact": "Running ads (GTM, Google Ads detected) but the site has zero social proof. 134 reviews exist but visitors can't see them. Ad spend is being wasted.",
+        "category": "business",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No LocalBusiness schema markup",
+        "impact": "Google can't understand the business type, service area, or hours from the code. Schema markup helps show rich results in local search.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "Missing or weak meta description",
+        "impact": "The meta description controls what people see in Google search results. Without one, Google picks random text from the page.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "81 unoptimized images",
+        "impact": "Not in WebP/AVIF format. Converting them cuts page size and improves load time.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$100-$400"
+      },
+      {
+        "gap": "Image alt tag coverage only 0%",
+        "impact": "Most images lack alt text. Hurts SEO and accessibility.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$400"
+      },
+      {
+        "gap": "No first-time customer offer",
+        "impact": "No introductory discount or first-clean special. First-time offers reduce hesitation and get new customers in the door. Competitors using \"$20 off your first clean\" win more trials.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "Missing viewport meta tag — not mobile-optimized",
+        "impact": "No viewport meta tag means the site renders at desktop width on mobile. Google's mobile-first indexing penalizes this.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Missing canonical tag",
+        "impact": "No canonical URL specified. This can cause duplicate content issues if the site is accessible via multiple URLs (www vs non-www, HTTP vs HTTPS).",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No H1 heading on homepage",
+        "impact": "Missing the primary heading tag. The H1 tells Google the main topic of the page. Without it, the page lacks semantic structure.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      },
+      {
+        "gap": "No referral program mentioned",
+        "impact": "With 134+ reviews, existing customers clearly like the service. A referral program turns happy customers into a lead generation engine.",
+        "category": "business",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$600"
+      }
+    ]
+  },
+  {
+    "slug": "youve-got-maids-of-henderson",
+    "name": "You've Got Maids of Henderson",
+    "domain": "henderson.youvegotmaids.com",
+    "website": "https://www.henderson.youvegotmaids.com",
+    "rating": 4.7,
+    "reviewCount": 137,
+    "city": "Henderson",
+    "state": "NV",
+    "totalScore": 95,
+    "websiteQualityScore": 15,
+    "impactEstimate": {
+      "monthlyVisitors": 350,
+      "bounceReason": "34.8s load time (53% leave after 3s) + Chrome \"Not Secure\" warning on HTTP links + phone not clickable on mobile",
+      "bouncePercent": 55,
+      "bouncedVisitors": 193,
+      "bookingRate": 5,
+      "missedLeads": "7-13",
+      "avgServiceCall": 200,
+      "missedRepairRevenue": "$1,400-$2,600",
+      "installNote": "If even 3 of those became recurring weekly clients, that's another $2,400-$3,600/month."
+    },
+    "businessSummary": {
+      "oneLiner": "You've Got Maids of Henderson is paying for ads but the site has 4 critical gaps. Traffic is arriving — and leaving. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "strengths": [
+        "Bonded & insured messaging prominent",
+        "Background check/vetting mentioned",
+        "Satisfaction guarantee prominently displayed",
+        "Strong reputation: 4.7★ across 137 reviews"
+      ],
+      "topThreeGaps": [
+        "Lead capture analysis incomplete",
+        "SEO analysis incomplete",
+        "HTTP does not redirect to HTTPS"
+      ],
+      "diagnosticType": "blind-spender",
+      "diagnosticLabel": "Blind Spender",
+      "seasonalUrgency": "Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "growthOpportunity": "Full website rebuild + instant quote system + 20 service area pages + recurring plan funnel + SEO optimization ($1,000-$2,000/month retainer)",
+      "diagnosticHeadline": "Paying for traffic that can't convert",
+      "competitivePosition": "You've Got Maids of Henderson has a 4.7★ rating with 137 reviews in Henderson. Missing instant quote puts them behind competitors who offer it.",
+      "websiteQualityScore": 15,
+      "diagnosticDescription": "You've Got Maids of Henderson is running ads but the site has 4 critical conversion gaps. Ad spend is leaking.",
+      "estimatedAnnualLtvLost": "$248K-$497K",
+      "recommendedFirstProject": "click-to-call + click-to-call",
+      "estimatedTotalMonthlyCost": "$3K-$9K",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days"
+    },
+    "gapSummary": [
+      {
+        "gap": "Lead capture analysis incomplete",
+        "impact": "We couldn't fully analyze contact forms, booking widgets, and CTAs. Manual review recommended.",
+        "category": "lead-capture",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "TBD"
+      },
+      {
+        "gap": "SEO analysis incomplete",
+        "impact": "We couldn't fully analyze meta tags, schema, and SEO elements. Manual review recommended.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "TBD"
+      },
+      {
+        "gap": "HTTP does not redirect to HTTPS",
+        "impact": "You've Got Maids of Henderson's site has SSL but doesn't force HTTPS. Some visitors see Chrome's \"Not Secure\" warning. A simple redirect rule fixes this.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Phone number not clickable on mobile",
+        "impact": "73% of cleaning searches happen on mobile. Visitors have to manually type the number. Most will tap the back button and call the competitor who makes it one tap.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$3,500"
+      },
+      {
+        "gap": "Site loads in 34.8s — over 50% of visitors leave",
+        "impact": "At 34.8s, more than half of potential customers never see the site. In cleaning, a lost lead isn't just one $180 clean — it's a $4,500 recurring customer.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No online booking or instant quote",
+        "impact": "No ZenMaid, BookingKoala, or any booking widget. No bedroom/bathroom price calculator. Visitors expect instant pricing for cleaning services — without it, many abandon before contacting. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$2,500-$6,000"
+      },
+      {
+        "gap": "Phone number mismatch with Google Business Profile",
+        "impact": "Website phone doesn't match GBP listing.. Google uses NAP consistency to rank local businesses. This mismatch hurts the map pack position.",
+        "category": "business",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No clear CTA above the fold",
+        "impact": "Visitors land on the page and don't know what to do next. No \"Book a Cleaning\", \"Get Instant Quote\", or \"Schedule Online\" visible without scrolling.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No contact form",
+        "impact": "Only a phone number. Many homeowners prefer to submit a request rather than call — especially for scheduling regular cleaning.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$2,500"
+      },
+      {
+        "gap": "137 Google reviews not displayed on website",
+        "impact": "You've Got Maids of Henderson has a 4.7★ rating with 137 reviews — but website visitors never see them. For in-home services, social proof is everything. On-site reviews increase conversions up to 270%.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No recurring cleaning plan framing",
+        "impact": "No mention of weekly, biweekly, or monthly plans. Recurring customers are the lifeblood of a cleaning business ($4,500 LTV vs $180 one-time). The site should frame recurring as the default, not an afterthought.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No pricing page",
+        "impact": "Homeowners comparing cleaning services want to see pricing upfront. \"Call for a quote\" loses to the competitor who shows \"$120 for a 2BR/1BA.\" Transparency builds trust.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Paying for traffic to a no-trust site",
+        "impact": "Running ads (GA4, GTM, Facebook Pixel detected) but the site has zero social proof. 137 reviews exist but visitors can't see them. Ad spend is being wasted.",
+        "category": "business",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No LocalBusiness schema markup",
+        "impact": "Google can't understand the business type, service area, or hours from the code. Schema markup helps show rich results in local search.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "Missing or weak meta description",
+        "impact": "The meta description controls what people see in Google search results. Without one, Google picks random text from the page.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "No Airbnb/vacation rental cleaning page",
+        "impact": "Airbnb turnover cleaning is a growing high-frequency revenue stream. Without a dedicated page, this market segment goes to competitors.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "11 unoptimized images",
+        "impact": "Not in WebP/AVIF format. Converting them cuts page size and improves load time.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$100-$400"
+      },
+      {
+        "gap": "Image alt tag coverage only 0%",
+        "impact": "Most images lack alt text. Hurts SEO and accessibility.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$400"
+      },
+      {
+        "gap": "No eco-friendly/green cleaning messaging",
+        "impact": "No mention of green, non-toxic, or eco-friendly products. Families with kids and pets specifically search for this. It's a key differentiator.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,200"
+      },
+      {
+        "gap": "No before/after gallery or portfolio",
+        "impact": "No visual proof of cleaning results. Before/after photos are powerful conversion tools for visual services like cleaning.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "No first-time customer offer",
+        "impact": "No introductory discount or first-clean special. First-time offers reduce hesitation and get new customers in the door. Competitors using \"$20 off your first clean\" win more trials.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No social media links on site",
+        "impact": "Zero social media profiles linked. Social presence builds trust and gives potential customers another way to vet the business.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "Missing viewport meta tag — not mobile-optimized",
+        "impact": "No viewport meta tag means the site renders at desktop width on mobile. Google's mobile-first indexing penalizes this.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Missing canonical tag",
+        "impact": "No canonical URL specified. This can cause duplicate content issues if the site is accessible via multiple URLs (www vs non-www, HTTP vs HTTPS).",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No H1 heading on homepage",
+        "impact": "Missing the primary heading tag. The H1 tells Google the main topic of the page. Without it, the page lacks semantic structure.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      },
+      {
+        "gap": "No referral program mentioned",
+        "impact": "With 137+ reviews, existing customers clearly like the service. A referral program turns happy customers into a lead generation engine.",
+        "category": "business",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$600"
+      },
+      {
+        "gap": "No copyright notice in footer",
+        "impact": "No copyright notice found. This is a minor professionalism signal that takes seconds to add.",
+        "category": "trust",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$50-$100"
+      }
+    ]
+  },
+  {
+    "slug": "extreme-clean-solutions-llc",
+    "name": "Extreme Clean Solutions LLC",
+    "domain": "extremecleaningsolution.com",
+    "website": "https://extremecleaningsolution.com",
+    "rating": 4.9,
+    "reviewCount": 57,
+    "city": "Oklahoma City",
+    "state": "OK",
+    "totalScore": 95,
+    "websiteQualityScore": 15,
+    "impactEstimate": {
+      "monthlyVisitors": 200,
+      "bounceReason": "34.5s load time (53% leave after 3s) + Chrome \"Not Secure\" warning on HTTP links + phone not clickable on mobile",
+      "bouncePercent": 55,
+      "bouncedVisitors": 110,
+      "bookingRate": 5,
+      "missedLeads": "4-7",
+      "avgServiceCall": 200,
+      "missedRepairRevenue": "$800-$1,400",
+      "installNote": "If even 1 became a recurring weekly client, that's another $800-$1,200/month."
+    },
+    "businessSummary": {
+      "oneLiner": "Extreme Clean Solutions LLC's website asks people to let cleaners into their home — but shows no bonded/insured badges and no way to book online. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "strengths": [
+        "Active social presence (4 platforms)"
+      ],
+      "topThreeGaps": [
+        "Lead capture analysis incomplete",
+        "SEO analysis incomplete",
+        "HTTP does not redirect to HTTPS"
+      ],
+      "seasonalUrgency": "Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "growthOpportunity": "Full website rebuild + instant quote system + 20 service area pages + recurring plan funnel + SEO optimization ($1,000-$2,000/month retainer)",
+      "competitivePosition": "Extreme Clean Solutions LLC has a 4.9★ rating with 57 reviews in Oklahoma City. No service area pages means invisible for local searches. Missing instant quote puts them behind competitors who offer it.",
+      "websiteQualityScore": 15,
+      "estimatedAnnualLtvLost": "$86K-$173K",
+      "recommendedFirstProject": "click-to-call + trust badges",
+      "estimatedTotalMonthlyCost": "$1K-$3K",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "diagnosticType": "blind-spender",
+      "diagnosticLabel": "The Blind Spot",
+      "diagnosticHeadline": "You're losing money and don't know where",
+      "diagnosticDescription": "No ads, no tracking, no strategy. Your website has 28 issues silently costing you an estimated $1K-$3K/month. You're not getting calls because your site isn't built to generate them."
+    },
+    "gapSummary": [
+      {
+        "gap": "Lead capture analysis incomplete",
+        "impact": "We couldn't fully analyze contact forms, booking widgets, and CTAs. Manual review recommended.",
+        "category": "lead-capture",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "TBD"
+      },
+      {
+        "gap": "SEO analysis incomplete",
+        "impact": "We couldn't fully analyze meta tags, schema, and SEO elements. Manual review recommended.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "TBD"
+      },
+      {
+        "gap": "HTTP does not redirect to HTTPS",
+        "impact": "Extreme Clean Solutions LLC's site has SSL but doesn't force HTTPS. Some visitors see Chrome's \"Not Secure\" warning. A simple redirect rule fixes this.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Phone number not clickable on mobile",
+        "impact": "73% of cleaning searches happen on mobile. Visitors have to manually type the number. Most will tap the back button and call the competitor who makes it one tap.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$3,500"
+      },
+      {
+        "gap": "Site loads in 34.5s — over 50% of visitors leave",
+        "impact": "At 34.5s, more than half of potential customers never see the site. In cleaning, a lost lead isn't just one $180 clean — it's a $4,500 recurring customer.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No 'bonded, insured, background-checked' messaging",
+        "impact": "Cleaning is an in-home service. Homeowners need to feel safe letting cleaners into their house. Without \"bonded\", \"insured\", or \"background-checked\" messaging, trust drops immediately. Competitors who show this win.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "No online booking or instant quote",
+        "impact": "No ZenMaid, BookingKoala, or any booking widget. No bedroom/bathroom price calculator. Visitors expect instant pricing for cleaning services — without it, many abandon before contacting. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$2,500-$6,000"
+      },
+      {
+        "gap": "No clear CTA above the fold",
+        "impact": "Visitors land on the page and don't know what to do next. No \"Book a Cleaning\", \"Get Instant Quote\", or \"Schedule Online\" visible without scrolling.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No contact form",
+        "impact": "Only a phone number. Many homeowners prefer to submit a request rather than call — especially for scheduling regular cleaning.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$2,500"
+      },
+      {
+        "gap": "57 Google reviews not displayed on website",
+        "impact": "Extreme Clean Solutions LLC has a 4.9★ rating with 57 reviews — but website visitors never see them. For in-home services, social proof is everything. On-site reviews increase conversions up to 270%.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No recurring cleaning plan framing",
+        "impact": "No mention of weekly, biweekly, or monthly plans. Recurring customers are the lifeblood of a cleaning business ($4,500 LTV vs $180 one-time). The site should frame recurring as the default, not an afterthought.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No pricing page",
+        "impact": "Homeowners comparing cleaning services want to see pricing upfront. \"Call for a quote\" loses to the competitor who shows \"$120 for a 2BR/1BA.\" Transparency builds trust.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No service area pages",
+        "impact": "Zero location-specific pages. When someone Googles \"house cleaning Oklahoma City\", Extreme Clean Solutions LLC is invisible. Each service area page captures local searches.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No move-in/move-out cleaning page",
+        "impact": "Move-in/move-out cleanings are high-ticket ($300-$600) one-time jobs. Without a dedicated page, searches for \"move out cleaning Oklahoma City\" go to competitors.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No satisfaction guarantee",
+        "impact": "No \"100% satisfaction guarantee\" or \"we'll come back\" promise. This is standard in cleaning and removes the risk for first-time customers.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No dedicated deep cleaning page",
+        "impact": "Deep cleaning is a high-ticket service ($250-$500). Without a dedicated page, \"deep cleaning Oklahoma City\" searches go to competitors.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No LocalBusiness schema markup",
+        "impact": "Google can't understand the business type, service area, or hours from the code. Schema markup helps show rich results in local search.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "Missing or weak meta description",
+        "impact": "The meta description controls what people see in Google search results. Without one, Google picks random text from the page.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "No Airbnb/vacation rental cleaning page",
+        "impact": "Airbnb turnover cleaning is a growing high-frequency revenue stream. Without a dedicated page, this market segment goes to competitors.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Image alt tag coverage only 0%",
+        "impact": "Most images lack alt text. Hurts SEO and accessibility.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$400"
+      },
+      {
+        "gap": "No eco-friendly/green cleaning messaging",
+        "impact": "No mention of green, non-toxic, or eco-friendly products. Families with kids and pets specifically search for this. It's a key differentiator.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,200"
+      },
+      {
+        "gap": "No before/after gallery or portfolio",
+        "impact": "No visual proof of cleaning results. Before/after photos are powerful conversion tools for visual services like cleaning.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "No first-time customer offer",
+        "impact": "No introductory discount or first-clean special. First-time offers reduce hesitation and get new customers in the door. Competitors using \"$20 off your first clean\" win more trials.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "Missing viewport meta tag — not mobile-optimized",
+        "impact": "No viewport meta tag means the site renders at desktop width on mobile. Google's mobile-first indexing penalizes this.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Missing canonical tag",
+        "impact": "No canonical URL specified. This can cause duplicate content issues if the site is accessible via multiple URLs (www vs non-www, HTTP vs HTTPS).",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No H1 heading on homepage",
+        "impact": "Missing the primary heading tag. The H1 tells Google the main topic of the page. Without it, the page lacks semantic structure.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      },
+      {
+        "gap": "No referral program mentioned",
+        "impact": "With 57+ reviews, existing customers clearly like the service. A referral program turns happy customers into a lead generation engine.",
+        "category": "business",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$600"
+      },
+      {
+        "gap": "No copyright notice in footer",
+        "impact": "No copyright notice found. This is a minor professionalism signal that takes seconds to add.",
+        "category": "trust",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$50-$100"
+      }
+    ]
+  },
+  {
+    "slug": "nekoblue-services",
+    "name": "Nekoblue Services",
+    "domain": "miamiflcleaning.com",
+    "website": "http://www.miamiflcleaning.com",
+    "rating": 4.8,
+    "reviewCount": 218,
+    "city": "Miami",
+    "state": "FL",
+    "totalScore": 0,
+    "websiteQualityScore": 30,
+    "impactEstimate": {
+      "monthlyVisitors": 500,
+      "bounceReason": "phone not clickable on mobile + no contact form + no after-hours capture",
+      "bouncePercent": 55,
+      "bouncedVisitors": 275,
+      "bookingRate": 5,
+      "missedLeads": "10-18",
+      "avgServiceCall": 200,
+      "missedRepairRevenue": "$2,000-$3,600",
+      "installNote": "If even 3 of those became recurring weekly clients, that's another $2,400-$3,600/month."
+    },
+    "businessSummary": {
+      "oneLiner": "Nekoblue Services's website asks people to let cleaners into their home — but shows no bonded/insured badges and no way to book online. That's a trust and conversion problem. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "topThreeGaps": [
+        "Phone number not clickable on mobile",
+        "No 'bonded, insured, background-checked' messaging",
+        "No online booking or instant quote"
+      ],
+      "seasonalUrgency": "Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "growthOpportunity": "Full website rebuild + instant quote system + 20 service area pages + recurring plan funnel + SEO optimization ($1,000-$2,000/month retainer)",
+      "competitivePosition": "Nekoblue Services has a 4.8★ rating with 218 reviews in Miami. No service area pages means invisible for local searches. Missing instant quote puts them behind competitors who offer it.",
+      "estimatedAnnualLtvLost": "$313K-$626K",
+      "recommendedFirstProject": "Fix phone number not clickable on mobile + no 'bonded, insured, background-checked' messaging + phone number mismatch with google business profile",
+      "estimatedTotalMonthlyCost": "$4K-$11K",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "diagnosticType": "blind-spender",
+      "diagnosticLabel": "The Blind Spot",
+      "diagnosticHeadline": "You're losing money and don't know where",
+      "diagnosticDescription": "No ads, no tracking, no strategy. Your website has 18 issues silently costing you an estimated $4K-$11K/month. You're not getting calls because your site isn't built to generate them.",
+      "websiteQualityScore": 30
+    },
+    "gapSummary": [
+      {
+        "gap": "Phone number not clickable on mobile",
+        "impact": "73% of cleaning searches happen on mobile. Visitors have to manually type the number. Most will tap the back button and call the competitor who makes it one tap.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$3,500"
+      },
+      {
+        "gap": "No 'bonded, insured, background-checked' messaging",
+        "impact": "Cleaning is an in-home service. Homeowners need to feel safe letting cleaners into their house. Without \"bonded\", \"insured\", or \"background-checked\" messaging, trust drops immediately. Competitors who show this win.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "No online booking or instant quote",
+        "impact": "No ZenMaid, BookingKoala, or any booking widget. No bedroom/bathroom price calculator. Visitors expect instant pricing for cleaning services — without it, many abandon before contacting. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$2,500-$6,000"
+      },
+      {
+        "gap": "Phone number mismatch with Google Business Profile",
+        "impact": "Website phone doesn't match GBP listing.. Google uses NAP consistency to rank local businesses. This mismatch hurts the map pack position.",
+        "category": "business",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No clear CTA above the fold",
+        "impact": "Visitors land on the page and don't know what to do next. No \"Book a Cleaning\", \"Get Instant Quote\", or \"Schedule Online\" visible without scrolling.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No contact form",
+        "impact": "Only a phone number. Many homeowners prefer to submit a request rather than call — especially for scheduling regular cleaning.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$2,500"
+      },
+      {
+        "gap": "218 Google reviews not displayed on website",
+        "impact": "Nekoblue Services has a 4.8★ rating with 218 reviews — but website visitors never see them. For in-home services, social proof is everything. On-site reviews increase conversions up to 270%.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No recurring cleaning plan framing",
+        "impact": "No mention of weekly, biweekly, or monthly plans. Recurring customers are the lifeblood of a cleaning business ($4,500 LTV vs $180 one-time). The site should frame recurring as the default, not an afterthought.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No pricing page",
+        "impact": "Homeowners comparing cleaning services want to see pricing upfront. \"Call for a quote\" loses to the competitor who shows \"$120 for a 2BR/1BA.\" Transparency builds trust.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No service area pages",
+        "impact": "Zero location-specific pages. When someone Googles \"house cleaning Miami\", Nekoblue Services is invisible. Each service area page captures local searches.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No move-in/move-out cleaning page",
+        "impact": "Move-in/move-out cleanings are high-ticket ($300-$600) one-time jobs. Without a dedicated page, searches for \"move out cleaning Miami\" go to competitors.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No satisfaction guarantee",
+        "impact": "No \"100% satisfaction guarantee\" or \"we'll come back\" promise. This is standard in cleaning and removes the risk for first-time customers.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No dedicated deep cleaning page",
+        "impact": "Deep cleaning is a high-ticket service ($250-$500). Without a dedicated page, \"deep cleaning Miami\" searches go to competitors.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No LocalBusiness schema markup",
+        "impact": "Google can't understand the business type, service area, or hours from the code. Schema markup helps show rich results in local search.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "Missing or weak meta description",
+        "impact": "The meta description controls what people see in Google search results. Without one, Google picks random text from the page.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "No blog or content hub",
+        "impact": "No blog means no long-tail SEO. Competitors writing \"How much does house cleaning cost in Miami?\" capture searches this site never will.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$400-$1,500"
+      },
+      {
+        "gap": "No analytics tracking installed",
+        "impact": "No GA4, no GTM — the business is flying blind. No way to know which pages work or what's generating calls.",
+        "category": "tracking",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "No Airbnb/vacation rental cleaning page",
+        "impact": "Airbnb turnover cleaning is a growing high-frequency revenue stream. Without a dedicated page, this market segment goes to competitors.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      }
+    ]
+  },
+  {
+    "slug": "the-cleaning-crew-charleston",
+    "name": "The Cleaning Crew Charleston",
+    "domain": "thecleaningcrewcharleston.com",
+    "website": "http://www.thecleaningcrewcharleston.com",
+    "rating": 4.9,
+    "reviewCount": 234,
+    "city": "Charleston",
+    "state": "SC",
+    "totalScore": 0,
+    "websiteQualityScore": 42,
+    "impactEstimate": {
+      "monthlyVisitors": 500,
+      "bounceReason": "3.7s load time (53% leave after 3s) + phone not clickable on mobile + no contact form",
+      "bouncePercent": 55,
+      "bouncedVisitors": 275,
+      "bookingRate": 5,
+      "missedLeads": "10-18",
+      "avgServiceCall": 200,
+      "missedRepairRevenue": "$2,000-$3,600",
+      "installNote": "If even 3 of those became recurring weekly clients, that's another $2,400-$3,600/month."
+    },
+    "businessSummary": {
+      "oneLiner": "The Cleaning Crew Charleston's website asks people to let cleaners into their home — but shows no bonded/insured badges and no way to book online. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "strengths": [
+        "Secure site with HTTPS redirect",
+        "Reviews displayed on site (custom)",
+        "Satisfaction guarantee prominently displayed",
+        "Strong reputation: 4.9★ across 234 reviews"
+      ],
+      "topThreeGaps": [
+        "Lead capture analysis incomplete",
+        "SEO analysis incomplete",
+        "Phone number not clickable on mobile"
+      ],
+      "diagnosticType": "half-built",
+      "diagnosticLabel": "Half-Built Funnel",
+      "seasonalUrgency": "Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+      "growthOpportunity": "Full website rebuild + instant quote system + 20 service area pages + recurring plan funnel + SEO optimization ($1,000-$2,000/month retainer)",
+      "diagnosticHeadline": "Good foundation, missing key pieces",
+      "competitivePosition": "The Cleaning Crew Charleston has a 4.9★ rating with 234 reviews in Charleston. Missing instant quote puts them behind competitors who offer it.",
+      "websiteQualityScore": 42,
+      "diagnosticDescription": "The Cleaning Crew Charleston has some elements right (secure site with https redirect, reviews displayed on site (custom)) but 6 high-impact gaps are holding it back.",
+      "estimatedAnnualLtvLost": "$529K-$1.1M",
+      "recommendedFirstProject": "click-to-call + trust badges",
+      "estimatedTotalMonthlyCost": "$7K-$18K",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days"
+    },
+    "gapSummary": [
+      {
+        "gap": "Lead capture analysis incomplete",
+        "impact": "We couldn't fully analyze contact forms, booking widgets, and CTAs. Manual review recommended.",
+        "category": "lead-capture",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "TBD"
+      },
+      {
+        "gap": "SEO analysis incomplete",
+        "impact": "We couldn't fully analyze meta tags, schema, and SEO elements. Manual review recommended.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "TBD"
+      },
+      {
+        "gap": "Phone number not clickable on mobile",
+        "impact": "73% of cleaning searches happen on mobile. Visitors have to manually type the number. Most will tap the back button and call the competitor who makes it one tap.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$3,500"
+      },
+      {
+        "gap": "No 'bonded, insured, background-checked' messaging",
+        "impact": "Cleaning is an in-home service. Homeowners need to feel safe letting cleaners into their house. Without \"bonded\", \"insured\", or \"background-checked\" messaging, trust drops immediately. Competitors who show this win.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "No online booking or instant quote",
+        "impact": "No ZenMaid, BookingKoala, or any booking widget. No bedroom/bathroom price calculator. Visitors expect instant pricing for cleaning services — without it, many abandon before contacting. Spring cleaning season is here — search volume for house cleaning spikes 40% in spring. Every website gap is costing maximum leads right now.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$2,500-$6,000"
+      },
+      {
+        "gap": "No clear CTA above the fold",
+        "impact": "Visitors land on the page and don't know what to do next. No \"Book a Cleaning\", \"Get Instant Quote\", or \"Schedule Online\" visible without scrolling.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No contact form",
+        "impact": "Only a phone number. Many homeowners prefer to submit a request rather than call — especially for scheduling regular cleaning.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$2,500"
+      },
+      {
+        "gap": "No recurring cleaning plan framing",
+        "impact": "No mention of weekly, biweekly, or monthly plans. Recurring customers are the lifeblood of a cleaning business ($4,500 LTV vs $180 one-time). The site should frame recurring as the default, not an afterthought.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No pricing page",
+        "impact": "Homeowners comparing cleaning services want to see pricing upfront. \"Call for a quote\" loses to the competitor who shows \"$120 for a 2BR/1BA.\" Transparency builds trust.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No LocalBusiness schema markup",
+        "impact": "Google can't understand the business type, service area, or hours from the code. Schema markup helps show rich results in local search.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "Missing or weak meta description",
+        "impact": "The meta description controls what people see in Google search results. Without one, Google picks random text from the page.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "No analytics tracking installed",
+        "impact": "No GA4, no GTM — the business is flying blind. No way to know which pages work or what's generating calls.",
+        "category": "tracking",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,000"
+      },
+      {
+        "gap": "No Airbnb/vacation rental cleaning page",
+        "impact": "Airbnb turnover cleaning is a growing high-frequency revenue stream. Without a dedicated page, this market segment goes to competitors.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Copyright shows 2023",
+        "impact": "Footer says \"© 2023\". Small but signals neglect. 2 minutes to fix.",
+        "category": "trust",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      },
+      {
+        "gap": "37 unoptimized images",
+        "impact": "Not in WebP/AVIF format. Converting them cuts page size and improves load time.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$100-$400"
+      },
+      {
+        "gap": "Image alt tag coverage only 0%",
+        "impact": "Most images lack alt text. Hurts SEO and accessibility.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$400"
+      },
+      {
+        "gap": "No eco-friendly/green cleaning messaging",
+        "impact": "No mention of green, non-toxic, or eco-friendly products. Families with kids and pets specifically search for this. It's a key differentiator.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$400-$1,200"
+      },
+      {
+        "gap": "No before/after gallery or portfolio",
+        "impact": "No visual proof of cleaning results. Before/after photos are powerful conversion tools for visual services like cleaning.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "No first-time customer offer",
+        "impact": "No introductory discount or first-clean special. First-time offers reduce hesitation and get new customers in the door. Competitors using \"$20 off your first clean\" win more trials.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "Missing viewport meta tag — not mobile-optimized",
+        "impact": "No viewport meta tag means the site renders at desktop width on mobile. Google's mobile-first indexing penalizes this.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Missing canonical tag",
+        "impact": "No canonical URL specified. This can cause duplicate content issues if the site is accessible via multiple URLs (www vs non-www, HTTP vs HTTPS).",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No H1 heading on homepage",
+        "impact": "Missing the primary heading tag. The H1 tells Google the main topic of the page. Without it, the page lacks semantic structure.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      },
+      {
+        "gap": "No referral program mentioned",
+        "impact": "With 234+ reviews, existing customers clearly like the service. A referral program turns happy customers into a lead generation engine.",
+        "category": "business",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$600"
+      }
+    ]
+  }
+]

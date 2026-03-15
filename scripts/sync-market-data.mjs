@@ -1,10 +1,10 @@
 /**
- * Market Data Sync — Aggregates HVAC audit data for market pages.
+ * Market Data Sync — Aggregates cleaning audit data for market pages.
  *
  * Connects to creative-axe PostgreSQL, computes Website Quality Scores,
  * aggregates by national/state/city/problem, writes market-data.json.
  *
- * Usage: export $(cat .env | xargs) && node scripts/sync-market-data.mjs
+ * Usage: npm run sync-market
  */
 
 import pgPkg from "pg";
@@ -46,9 +46,14 @@ const STATE_NAMES = {
 // Maps deep audit gap names (or prefixes) to slugs and display names.
 // matchGap() below does prefix matching so partial DB names still resolve.
 const GAP_MAP = {
+  "No online booking or instant quote": {
+    slug: "no-online-booking",
+    display: "No Online Booking or Instant Quote",
+    category: "lead-capture",
+  },
   "No online scheduling": {
-    slug: "no-online-scheduling",
-    display: "No Online Scheduling",
+    slug: "no-online-booking",
+    display: "No Online Booking or Instant Quote",
     category: "lead-capture",
   },
   "No license number displayed": {
@@ -66,14 +71,19 @@ const GAP_MAP = {
     display: "No Service Area Pages",
     category: "seo",
   },
-  "No industry trust badges": {
-    slug: "no-trust-badges",
-    display: "No Industry Trust Badges",
+  "No satisfaction guarantee": {
+    slug: "no-satisfaction-guarantee",
+    display: "No Satisfaction Guarantee",
     category: "trust",
   },
   'No "Licensed & Insured" mention': {
     slug: "no-licensed-insured-mention",
     display: 'No "Licensed & Insured" Mention',
+    category: "trust",
+  },
+  "No 'bonded, insured, background-checked' messaging": {
+    slug: "no-bonded-insured-messaging",
+    display: "No Bonded/Insured/Background-Checked Messaging",
     category: "trust",
   },
   "No LocalBusiness schema markup": {
@@ -86,20 +96,45 @@ const GAP_MAP = {
     display: "No Contact Form",
     category: "lead-capture",
   },
-  "No financing page for $5k-$15k replacements": {
-    slug: "no-financing-page",
-    display: "No Financing Page",
-    category: "lead-capture",
+  "No pricing page": {
+    slug: "no-pricing-page",
+    display: "No Pricing Page",
+    category: "content",
   },
   "No blog or content hub": {
     slug: "no-blog",
     display: "No Blog or Content Hub",
     category: "content",
   },
-  "No emergency/24-7 messaging": {
-    slug: "no-emergency-messaging",
-    display: "No Emergency/24-7 Messaging",
+  "No recurring cleaning plan framing": {
+    slug: "no-recurring-plan",
+    display: "No Recurring Cleaning Plan Framing",
+    category: "content",
+  },
+  "No Airbnb/vacation rental cleaning page": {
+    slug: "no-airbnb-page",
+    display: "No Airbnb/Vacation Rental Cleaning Page",
+    category: "content",
+  },
+  "No dedicated deep cleaning page": {
+    slug: "no-deep-cleaning-page",
+    display: "No Dedicated Deep Cleaning Page",
+    category: "content",
+  },
+  "No move-in/move-out cleaning page": {
+    slug: "no-move-cleaning-page",
+    display: "No Move-In/Move-Out Cleaning Page",
+    category: "content",
+  },
+  "No first-time customer offer": {
+    slug: "no-first-time-offer",
+    display: "No First-Time Customer Offer",
     category: "lead-capture",
+  },
+  "No before/after gallery or portfolio": {
+    slug: "no-before-after-gallery",
+    display: "No Before/After Gallery or Portfolio",
+    category: "trust",
   },
   "No way to capture leads after 6PM": {
     slug: "no-after-hours-capture",
@@ -110,11 +145,6 @@ const GAP_MAP = {
     slug: "phone-mismatch",
     display: "Phone Number Mismatch with Google",
     category: "business",
-  },
-  "No maintenance plan page": {
-    slug: "no-maintenance-plan",
-    display: "No Maintenance Plan Page",
-    category: "content",
   },
   "Missing or weak meta description": {
     slug: "missing-meta-description",
@@ -135,11 +165,6 @@ const GAP_MAP = {
     slug: "no-cta-above-fold",
     display: "No Clear CTA Above the Fold",
     category: "lead-capture",
-  },
-  "No specials or coupons page": {
-    slug: "no-specials-page",
-    display: "No Specials or Coupons Page",
-    category: "content",
   },
   "Running ads without call tracking": {
     slug: "ads-without-call-tracking",
@@ -271,10 +296,10 @@ async function main() {
       has_clear_cta, has_contact_form, is_mobile_responsive, has_meta_seo,
       niche_audit
     FROM leads
-    WHERE category = 'hvac' AND city IS NOT NULL AND state IS NOT NULL
+    WHERE category = 'house_cleaning' AND city IS NOT NULL AND state IS NOT NULL
   `);
   const allLeads = res.rows;
-  console.log(`Fetched ${allLeads.length} HVAC leads with city/state.`);
+  console.log(`Fetched ${allLeads.length} cleaning leads with city/state.`);
 
   // ─── Compute deep scores for each lead ────────────────────────────
   for (const lead of allLeads) {
@@ -599,10 +624,10 @@ async function main() {
   // ─── Assemble final output ────────────────────────────────────────
   const output = {
     generatedAt: new Date().toISOString(),
-    service: "hvac",
-    indexName: "HVAC Website Index",
+    service: "cleaning",
+    indexName: "Cleaning Website Index",
     national: {
-      service: "hvac",
+      service: "cleaning",
       ...nationalStats,
       states: states.map((s) => s.state),
       stateCount: states.length,

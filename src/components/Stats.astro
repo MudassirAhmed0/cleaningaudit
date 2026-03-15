@@ -1,9 +1,9 @@
 ---
 const stats = [
-  { value: 147, suffix: "+", prefix: "", label: "Cleaning Sites Audited" },
-  { value: 34, suffix: "%", prefix: "", label: "Avg Bounce Rate Drop" },
-  { value: 12, suffix: "k+", prefix: "$", label: "Revenue Recovered / Mo" },
-  { value: 4.9, suffix: "", prefix: "", label: "Client Rating" },
+  { value: 1200, suffix: "+", prefix: "", label: "Cleaning Sites Audited" },
+  { value: 11, suffix: "", prefix: "", label: "States Covered" },
+  { value: 37, suffix: "/100", prefix: "", label: "Avg Site Score" },
+  { value: 4.8, suffix: "", prefix: "", label: "Avg Google Rating" },
 ];
 ---
 
@@ -34,8 +34,8 @@ const stats = [
               ]}
             >
               <span class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight block mb-2">
-                {stat.value === 4.9 ? (
-                  <span>4.9</span>
+                {stat.value === 4.8 ? (
+                  <span>4.8</span>
                 ) : (
                   <span data-counter={stat.value} data-suffix={stat.suffix} data-prefix={stat.prefix}>
                     {stat.prefix}{stat.value}{stat.suffix}
