@@ -94,7 +94,7 @@ const jsonLd = isPrivate ? [] : [
 ];
 ---
 
-<Base title={title} description={description} jsonLd={jsonLd} noindex={isPrivate}>
+<Base title={title} description={description} jsonLd={jsonLd} noindex={true}>
   {isPrivate && <PrivateReport report={report} />}
 
   {!isPrivate && (<Fragment>
@@ -189,7 +189,7 @@ const jsonLd = isPrivate ? [] : [
               <p class="mt-1 text-xl sm:text-2xl font-bold leading-tight">
                 {report.rating}<span class="text-warning text-base">&#9733;</span>
               </p>
-              <p class="text-[10px] text-ink-muted">({report.reviewCount.toLocaleString()})</p>
+              <p class="text-[10px] text-ink-muted">({(report.reviewCount ?? 0).toLocaleString()})</p>
             </div>
           </div>
         </div>
