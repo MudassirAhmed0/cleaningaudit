@@ -9,28 +9,28 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <meta name="robots" content="noindex,nofollow"/>
-  <title>Sitemap Index — HVAC Audit</title>
+  <title>Sitemap Index — Cleaning Audit</title>
   <style>
     *{margin:0;box-sizing:border-box}
-    body{font-family:system-ui,sans-serif;background:#0b1220;color:#f1f5f9;padding:3rem 2rem;min-height:100vh}
+    body{font-family:'Geist',system-ui,sans-serif;background:#ffffff;color:#18181b;padding:3rem 2rem;min-height:100vh}
     .c{max-width:720px;margin:0 auto}
     .b{display:flex;align-items:center;gap:.5rem;margin-bottom:2rem}
-    .bd{width:8px;height:8px;border-radius:50%;background:#0ea5e9}
+    .bd{width:8px;height:8px;border-radius:50%;background:#059669}
     .bn{font-size:.875rem;font-weight:600}
     h1{font-size:1.5rem;font-weight:700;letter-spacing:-.02em;margin-bottom:.5rem}
-    .st{font-size:.8125rem;color:#64748b;margin-bottom:2.5rem}
-    .ct{color:#0ea5e9}
-    .list{display:flex;flex-direction:column;gap:1px;border:1px solid #1e293b;border-radius:.5rem;overflow:hidden}
-    .row{display:flex;align-items:center;justify-content:space-between;padding:1.25rem 1.5rem;background:#0f1a2e}
-    .row:hover{background:#132038}
-    a{color:#0ea5e9;text-decoration:none;font-size:.875rem;font-weight:500}
-    a:hover{text-decoration:underline}
-    .ar{color:#334155}
+    .st{font-size:.8125rem;color:#71717a;margin-bottom:2.5rem}
+    .ct{color:#059669}
+    .list{display:flex;flex-direction:column;gap:1px;border:1px solid #e4e4e7;border-radius:.5rem;overflow:hidden}
+    .row{display:flex;align-items:center;justify-content:space-between;padding:1.25rem 1.5rem;background:#f4f4f5}
+    .row:hover{background:#ecfdf5}
+    a{color:#059669;text-decoration:none;font-size:.875rem;font-weight:500}
+    a:hover{text-decoration:underline;color:#047857}
+    .ar{color:#e4e4e7}
   </style>
 </head>
 <body>
   <div class="c">
-    <div class="b"><div class="bd"/><span class="bn">HVAC Audit</span></div>
+    <div class="b"><div class="bd"/><span class="bn">Cleaning Audit</span></div>
     <h1>Sitemap Index</h1>
     <p class="st"><span class="ct"><xsl:value-of select="count(s:sitemapindex/s:sitemap)"/></span> sitemaps</p>
     <div class="list">
