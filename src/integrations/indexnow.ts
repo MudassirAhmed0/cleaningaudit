@@ -16,16 +16,40 @@ import path from "path";
 
 const SITE = "https://cleaningaudit.co";
 const KEY = "fb3e25fa4c70471a89e20604e1fe0a80";
-const DELAY_MS = 1200;
 
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
+// IndexNow endpoints — submit to multiple engines for maximum coverage
+const INDEXNOW_ENDPOINTS = [
+  "https://api.indexnow.org/indexnow",
+  "https://yandex.com/indexnow",
+  "https://searchadvisor.naver.com/indexnow",
+  "https://search.seznam.cz/indexnow",
+];
 
-async function submitUrl(url: string): Promise<number> {
-  const endpoint = `https://api.indexnow.org/indexnow?url=${encodeURIComponent(url)}&key=${KEY}`;
-  const res = await fetch(endpoint);
-  return res.status;
+async function submitBatch(urls: string[], logger: any): Promise<void> {
+  const body = JSON.stringify({
+    host: "cleaningaudit.co",
+    key: KEY,
+    keyLocation: `${SITE}/${KEY}.txt`,
+    urlList: urls,
+  });
+
+  for (const endpoint of INDEXNOW_ENDPOINTS) {
+    try {
+      const res = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json; charset=utf-8" },
+        body,
+      });
+      const name = new URL(endpoint).hostname;
+      if (res.status === 200 || res.status === 202) {
+        logger.info(`  ✓ ${name}: ${res.status} (${urls.length} URLs)`);
+      } else {
+        logger.warn(`  ✗ ${name}: ${res.status}`);
+      }
+    } catch (err: any) {
+      logger.warn(`  ✗ ${new URL(endpoint).hostname}: ${err.message}`);
+    }
+  }
 }
 
 function getChangedFiles(): string[] {
@@ -179,31 +203,9 @@ export default function indexNowIntegration(): AstroIntegration {
           return;
         }
 
-        logger.info(`IndexNow: streaming ${changedUrls.length} URLs...`);
-
-        let ok = 0;
-        let fail = 0;
-
-        for (let i = 0; i < changedUrls.length; i++) {
-          const url = changedUrls[i];
-          try {
-            const status = await submitUrl(url);
-            if (status === 200 || status === 202) {
-              logger.info(`  ✓ ${url}`);
-              ok++;
-            } else {
-              logger.warn(`  ✗ ${status} ${url}`);
-              fail++;
-            }
-          } catch (err: any) {
-            logger.warn(`  ✗ ERR ${url} — ${err.message}`);
-            fail++;
-          }
-
-          if (i < changedUrls.length - 1) await sleep(DELAY_MS);
-        }
-
-        logger.info(`IndexNow: ${ok} accepted, ${fail} failed`);
+        logger.info(`IndexNow: submitting ${changedUrls.length} URLs via batch POST...`);
+        await submitBatch(changedUrls, logger);
+        logger.info(`IndexNow: batch submission complete`);
       },
     },
   };
