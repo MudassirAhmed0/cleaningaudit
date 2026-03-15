@@ -11,7 +11,7 @@ export const GET: APIRoute = async ({ site }) => {
   const siteUrl =
     import.meta.env.SITE_URL ||
     site?.href?.replace(/\/$/, "") ||
-    "https://www.cleaningaudit.co";
+    "https://cleaningaudit.co";
 
   // Blog: latest post date
   const blogPosts = await getCollection("blog");

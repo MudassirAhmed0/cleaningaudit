@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import indexNow from "./src/integrations/indexnow.ts";
 
 export default defineConfig({
-  site: process.env.SITE_URL || "https://www.cleaningaudit.co",
+  site: process.env.SITE_URL || "https://cleaningaudit.co",
   trailingSlash: "always",
   integrations: [indexNow()],
   vite: {

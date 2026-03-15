@@ -14,7 +14,7 @@ import { execSync } from "child_process";
 import fs from "fs";
 import path from "path";
 
-const SITE = "https://www.cleaningaudit.co";
+const SITE = "https://cleaningaudit.co";
 const KEY = "fb3e25fa4c70471a89e20604e1fe0a80";
 const DELAY_MS = 1200;
 
